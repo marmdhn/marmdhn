@@ -6,7 +6,7 @@ import { FaPlay, FaPause, FaVolumeUp, FaVolumeDown } from "react-icons/fa";
 export default function MusicPlayer() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(0.5);
-  const audioRef = useRef(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
   const [currentSong] = useState({
     title: "Jaa ne, Mata ne",
     artist: "Riria",
@@ -15,19 +15,31 @@ export default function MusicPlayer() {
   });
 
   const togglePlay = () => {
-    if (!isPlaying) {
-      audioRef.current.currentTime = currentSong.startTime;
-      audioRef.current.play();
-    } else {
-      audioRef.current.pause();
+    if (audioRef.current) {
+      if (!isPlaying) {
+        if ("currentTime" in audioRef.current) {
+          audioRef.current.currentTime = currentSong.startTime;
+        }
+        if ("play" in audioRef.current) {
+          audioRef.current.play();
+        }
+      } else {
+        if ("pause" in audioRef.current) {
+          audioRef.current.pause();
+        }
+      }
+      setIsPlaying(!isPlaying);
     }
-    setIsPlaying(!isPlaying);
   };
 
-  const handleVolumeChange = (e) => {
+  const handleVolumeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newVolume = parseFloat(e.target.value);
     setVolume(newVolume);
-    audioRef.current.volume = newVolume;
+    if (audioRef.current) {
+      if ("volume" in audioRef.current) {
+        audioRef.current.volume = newVolume;
+      }
+    }
   };
 
   return (
