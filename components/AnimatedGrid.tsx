@@ -28,7 +28,8 @@ const AnimatedGrid = () => {
       {Array.from({ length: 36 }).map((_, index) => (
         <div
           key={index}
-          className="grid-box w-10 h-10 bg-blue-500 flex items-center justify-center text-white text-lg font-bold"
+          className="mx-auto grid-box bg-blue-500 flex items-center justify-center text-white text-lg font-bold"
+          style={{ width: "100%", height: "25px" }} // Sesuaikan dengan tinggi yang Anda inginkan
         />
       ))}
     </div>

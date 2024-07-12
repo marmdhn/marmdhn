@@ -16,7 +16,7 @@ const Modal: React.FC<ModalProps> = ({ title, content }) => {
     <>
       <Link href="/">
         <div
-          className="flex justify-end items-center gap-2 transition-all duration-200 hover:text-white"
+          className="flex justify-end items-center gap-2 transition-all duration-200 hover:text-gray-400 font-semibold dark:text-white dark:hover:text-gray-400"
           onClick={() => setIsOpen(true)}
         >
           Preview <FaArrowRight />
@@ -39,20 +39,24 @@ const Modal: React.FC<ModalProps> = ({ title, content }) => {
             onClick={() => setIsOpen(false)}
           ></div>
           <div className="relative w-auto max-w-3xl mx-auto my-6">
-            <div className="relative bg-gray-800 border-0 shadow-lg rounded-lg">
+            <div className="relative bg-gray-400 dark:bg-gray-800 border-0 shadow-lg rounded-lg">
               <div className="flex items-start justify-between p-5 rounded-t">
-                <h3 className="text-2xl font-semibold">{title}</h3>
+                <h3 className="text-2xl font-semibold text-gray-800 dark:text-white">
+                  {title}
+                </h3>
                 <button
-                  className="p-1 ml-auto bg-transparent border-0 text-black float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
+                  className=" bg-transparent border-0 text-black float-right text-3xl font-semibold outline-none focus:outline-none hover:scale-150 transition-all duration-200"
                   onClick={() => setIsOpen(false)}
                 >
-                  <span className="text-white h-6 w-6 text-2xl block outline-none focus:outline-none">
+                  <span className="text-gray-800 dark:text-white h-6 w-6 text-2xl block outline-none focus:outline-none">
                     ×
                   </span>
                 </button>
               </div>
               <div className="relative px-6 pb-6 flex-auto">
-                <p className="my-4 text-lg leading-relaxed">{content}</p>
+                <p className="my-4 text-lg leading-relaxed text-gray-800 dark:text-white">
+                  {content}
+                </p>
               </div>
             </div>
           </div>

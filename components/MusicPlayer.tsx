@@ -45,8 +45,10 @@ export default function MusicPlayer() {
   return (
     <div className="flex flex-col items-center justify-center gap-4 h-full">
       <div className="text-center">
-        <span className="text-white">{currentSong.title}</span>
-        <p className="text-gray-400">{currentSong.artist}</p>
+        <span className="text-gray-800 dark:text-white font-semibold">
+          {currentSong.title}
+        </span>
+        <p className="text-gray-500 dark:text-gray-400">{currentSong.artist}</p>
       </div>
       <div className="flex flex-col gap-4 items-center">
         <button
@@ -54,13 +56,13 @@ export default function MusicPlayer() {
           className="text-gray-300 hover:text-white focus:outline-none"
         >
           {isPlaying ? (
-            <FaPause className="text-xl" />
+            <FaPause className="text-xl text-gray-800 dark:text-white" />
           ) : (
-            <FaPlay className="text-xl" />
+            <FaPlay className="text-xl text-gray-800 dark:text-white" />
           )}
         </button>
-        <div className="flex gap-4">
-          <FaVolumeDown className="text-white" />
+        <div className="flex flex-wrap gap-4">
+          <FaVolumeDown className="text-gray-800 dark:text-white" />
           <input
             type="range"
             min="0"
@@ -71,7 +73,7 @@ export default function MusicPlayer() {
             className="slider"
             id="volumeRange"
           />
-          <FaVolumeUp className="text-white" />
+          <FaVolumeUp className="text-gray-800 dark:text-white ms-auto" />
         </div>
       </div>
       <audio ref={audioRef} src={currentSong.audioSrc}></audio>
