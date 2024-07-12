@@ -83,7 +83,7 @@ export default function Home() {
         <div className="col-span-1 lg:row-span-5 bg-gray-300 dark:bg-gray-800 transition-all duration-200 shadow-xl dark:shadow-none p-4 rounded-lg flex items-center justify-center">
           <span className="text-gray-800 dark:text-gray-200 text-center">
             Currently working in
-            <h1 className="font-semibold text-xl animate-scale mt-2">
+            <h1 className="font-semibold text-2xl animate-scale mt-2">
               Telkom Foundation
             </h1>
           </span>
@@ -91,9 +91,9 @@ export default function Home() {
         <div className="col-span-1 row-span-3 lg:row-span-4 bg-gray-300 dark:bg-gray-800 transition-all duration-200 shadow-xl dark:shadow-none p-4 rounded-lg flex items-center justify-center">
           <div className="flex gap-2 justify-center items-center">
             <span className="sr-only">Loading...</span>
-            <div className="h-4 w-4 bg-white rounded-full animate-bounce [animation-delay:-0.3s]"></div>
-            <div className="h-4 w-4 bg-white rounded-full animate-bounce [animation-delay:-0.15s]"></div>
-            <div className="h-4 w-4 bg-white rounded-full animate-bounce"></div>
+            <div className="h-4 w-4 bg-gray-800 dark:bg-white rounded-full animate-bounce [animation-delay:-0.3s]"></div>
+            <div className="h-4 w-4 bg-gray-800 dark:bg-white rounded-full animate-bounce [animation-delay:-0.15s]"></div>
+            <div className="h-4 w-4 bg-gray-800 dark:bg-white rounded-full animate-bounce"></div>
           </div>
         </div>
         <div className="col-span-1 md:col-span-2 row-span-2 bg-gray-300 dark:bg-gray-800 transition-all duration-200 shadow-xl dark:shadow-none p-4 rounded-lg flex items-center justify-center">
