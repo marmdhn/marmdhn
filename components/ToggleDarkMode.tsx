@@ -14,9 +14,9 @@ const ToggleDarkMode = () => {
   useEffect(() => {
     const html = document.querySelector("html");
     if (isDarkMode) {
-      html.classList.add("dark");
+      html?.classList.add("dark");
     } else {
-      html.classList.remove("dark");
+      html?.classList.remove("dark");
     }
   }, [isDarkMode]);
 
