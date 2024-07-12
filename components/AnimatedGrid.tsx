@@ -24,7 +24,7 @@ const AnimatedGrid = () => {
   }, []);
 
   return (
-    <div ref={gridRef} className="grid grid-cols-6 gap-1 p-4">
+    <div ref={gridRef} className="grid grid-cols-6 gap-1">
       {Array.from({ length: 36 }).map((_, index) => (
         <div
           key={index}
