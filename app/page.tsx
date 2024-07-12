@@ -1,17 +1,13 @@
 import Image from "next/image";
 import AnimatedGrid from "@/components/AnimatedGrid";
 import AnimatedText from "@/components/AnimatedText";
-import {
-  FaArrowRight,
-  FaGithub,
-  FaInstagram,
-  FaLinkedin,
-} from "react-icons/fa6";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
 import Link from "next/link";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiNuxtdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import MusicPlayer from "@/components/musicPlayer";
+import Modal from "@/components/modal";
 
 export default function Home() {
   return (
@@ -61,11 +57,10 @@ export default function Home() {
             <p className="text-gray-400">
               Preview of the projects I&apos;ve previously built.
             </p>
-            <Link href="/">
-              <div className="flex justify-end items-center gap-2 transition-all duration-200 hover:text-white">
-                Preview <FaArrowRight />
-              </div>
-            </Link>
+            <Modal
+              title="Notification!"
+              content="This feature will be avalaible soon"
+            />
           </div>
         </div>
         <div className="col-span-1 bg-gray-800 p-4 rounded-lg">
