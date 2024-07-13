@@ -26,12 +26,12 @@ const PortfolioSection = () => {
 
   return (
     <div className="flex flex-col justify-center items-center">
-      <div>
+      <div className="flex flex-wrap justify-center gap-4">
         {filters.map((filter) => (
           <div
             key={filter}
             onClick={() => setActiveFilter(filter)}
-            className={`inline-block ml-4 px-4 py-2 rounded-md cursor-pointer transition-all duration-200 ${
+            className={`ml-4 px-4 py-2 rounded-md cursor-pointer transition-all duration-200 ${
               activeFilter === filter
                 ? "bg-secondary text-white border border-secondary"
                 : "text-gray-700 dark:text-gray-500 border border-gray-300 dark:border-gray-700 hover:bg-secondary hover:text-white dark:hover:text-white"
@@ -48,7 +48,6 @@ const PortfolioSection = () => {
           <div key={index} className="flex justify-center">
             <PortfolioCard
               title={portfolio.title}
-              description={portfolio.description}
               techStack={portfolio.techStack}
               imageUrl={portfolio.imageUrl}
               companyName={portfolio.companyName}
