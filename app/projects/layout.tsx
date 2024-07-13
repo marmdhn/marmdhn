@@ -24,7 +24,9 @@ export default function ProjectsLayout({ children }: ProjectsLayoutProps) {
         <meta name="description" content={metadata.description} />
       </Head>
       <Navbar />
-      <main className="flex-grow">{children}</main>
+      <main className="flex-grow">
+        <ClientSideLayout>{children}</ClientSideLayout>
+      </main>
       <Footer />
     </div>
   );
