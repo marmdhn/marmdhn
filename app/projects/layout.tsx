@@ -19,10 +19,6 @@ export const metadata = {
 export default function ProjectsLayout({ children }: ProjectsLayoutProps) {
   return (
     <div className="flex flex-col min-h-screen">
-      <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-      </Head>
       <Navbar />
       <main className="flex-grow">
         <ClientSideLayout>{children}</ClientSideLayout>
