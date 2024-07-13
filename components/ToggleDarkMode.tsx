@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 
-const ToggleDarkMode = () => {
+const ToggleDarkMode = ({ iconSize }: { iconSize?: number }) => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
@@ -29,9 +29,13 @@ const ToggleDarkMode = () => {
   return (
     <button
       onClick={toggleDarkMode}
-      className="text-gray-800 transition-all duration-200 dark:text-white hover:scale-150 hover:text-gray-400 dark:hover:text-gray-400"
+      className="text-gray-800 transition-all duration-200 dark:text-white hover:scale-125 hover:text-gray-400 dark:hover:text-gray-400"
     >
-      {isDarkMode ? <MdDarkMode /> : <MdLightMode />}
+      {isDarkMode ? (
+        <MdDarkMode size={iconSize} />
+      ) : (
+        <MdLightMode size={iconSize} />
+      )}
     </button>
   );
 };
