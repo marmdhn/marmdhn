@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: remove description">
-      <change afterPath="$PROJECT_DIR$/components/NavbarMobile.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
+    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: remove unused import">
+      <change afterPath="$PROJECT_DIR$/app/about/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/about/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,29 +33,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Personal Project/Coding/Nextjs/my-new-portfolio/app/projects&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\makba\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\Personal Project\\Coding\\Nextjs\\my-new-portfolio\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Personal Project/Coding/Nextjs/my-new-portfolio/app/about",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\makba\\AppData\\Roaming\\npm\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "D:\\Personal Project\\Coding\\Nextjs\\my-new-portfolio\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Personal Project\Coding\Nextjs\my-new-portfolio\app\about" />
       <recent name="D:\Personal Project\Coding\Nextjs\my-new-portfolio\app\projects" />
       <recent name="D:\Personal Project\Coding\Nextjs\my-new-portfolio\app" />
       <recent name="D:\Personal Project\Coding\Nextjs\my-new-portfolio\public\music" />
@@ -100,54 +101,6 @@
       <workItem from="1720710661276" duration="238000" />
       <workItem from="1720758965749" duration="27620000" />
       <workItem from="1720836660633" duration="25713000" />
-    </task>
-    <task id="LOCAL-00023" summary="feat: add react icons &amp; react type animation">
-      <option name="closed" value="true" />
-      <created>1720793131191</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1720793131191</updated>
-    </task>
-    <task id="LOCAL-00024" summary="feat: add toggle dark mode">
-      <option name="closed" value="true" />
-      <created>1720793172348</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1720793172348</updated>
-    </task>
-    <task id="LOCAL-00025" summary="feat: add animated typing text">
-      <option name="closed" value="true" />
-      <created>1720793179775</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1720793179775</updated>
-    </task>
-    <task id="LOCAL-00026" summary="style: adjust dark mode">
-      <option name="closed" value="true" />
-      <created>1720793190132</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1720793190132</updated>
-    </task>
-    <task id="LOCAL-00027" summary="style: adjust dark mode">
-      <option name="closed" value="true" />
-      <created>1720793193544</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1720793193544</updated>
-    </task>
-    <task id="LOCAL-00028" summary="style: adjust dark mode">
-      <option name="closed" value="true" />
-      <created>1720793196156</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1720793196156</updated>
     </task>
     <task id="LOCAL-00029" summary="style: remove unused style">
       <option name="closed" value="true" />
@@ -493,7 +446,55 @@
       <option name="project" value="LOCAL" />
       <updated>1720883487031</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="feat: add navbar mobile">
+      <option name="closed" value="true" />
+      <created>1720883791104</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1720883791104</updated>
+    </task>
+    <task id="LOCAL-00073" summary="refactor: move navbar mobile to another component">
+      <option name="closed" value="true" />
+      <created>1720883801718</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1720883801718</updated>
+    </task>
+    <task id="LOCAL-00074" summary="refactor: remove head tag">
+      <option name="closed" value="true" />
+      <created>1720883808985</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1720883808986</updated>
+    </task>
+    <task id="LOCAL-00075" summary="refactor: idea">
+      <option name="closed" value="true" />
+      <created>1720883815477</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1720883815477</updated>
+    </task>
+    <task id="LOCAL-00076" summary="refactor: remove unused import">
+      <option name="closed" value="true" />
+      <created>1720883831155</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1720883831156</updated>
+    </task>
+    <task id="LOCAL-00077" summary="refactor: remove unused import">
+      <option name="closed" value="true" />
+      <created>1720883936934</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1720883936934</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,10 +502,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat: add portfolio moda" />
-    <MESSAGE value="refactor: add icons size props" />
-    <MESSAGE value="refactor: remove link" />
-    <MESSAGE value="style: add style text to center" />
     <MESSAGE value="refactor: change filename" />
     <MESSAGE value="style: add html &amp; body style" />
     <MESSAGE value="refactor: implement client side layout" />
@@ -515,7 +512,6 @@
     <MESSAGE value="feat: change image logo" />
     <MESSAGE value="refactor: adjust undefined" />
     <MESSAGE value="style: remove class invert on dark mode" />
-    <MESSAGE value="refactor: idea" />
     <MESSAGE value="feat: add image baitul adab" />
     <MESSAGE value="refactor: add timeout for loading animation" />
     <MESSAGE value="refactor: add text" />
@@ -526,6 +522,11 @@
     <MESSAGE value="style: adjust flex" />
     <MESSAGE value="refactor: add client side layout" />
     <MESSAGE value="refactor: remove description" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: remove description" />
+    <MESSAGE value="feat: add navbar mobile" />
+    <MESSAGE value="refactor: move navbar mobile to another component" />
+    <MESSAGE value="refactor: remove head tag" />
+    <MESSAGE value="refactor: idea" />
+    <MESSAGE value="refactor: remove unused import" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: remove unused import" />
   </component>
 </project>
