@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import ClientSideLayout from "@/components/ClientSideLayout";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
