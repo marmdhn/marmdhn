@@ -1,6 +1,5 @@
 import { ReactNode } from "react";
 import { Inter } from "next/font/google";
-import Head from "next/head";
 import ClientSideLayout from "@/components/ClientSideLayout";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -8,8 +7,6 @@ import Footer from "@/components/Footer";
 interface ProjectsLayoutProps {
   children: ReactNode;
 }
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "MARMDHN | Projects",
