@@ -1,38 +1,17 @@
-"use client";
-
 import Link from "next/link";
 import ToggleDarkMode from "@/components/ToggleDarkMode";
 import { FaGithub } from "react-icons/fa6";
-import classNames from "classnames";
-import { useState } from "react";
 import Image from "next/image";
+import NavbarMobile from "@/components/NavbarMobile";
 
 const Navbar = () => {
-  const [opened, setOpened] = useState(false);
-
-  const toggleMenu = () => {
-    setOpened(!opened);
-  };
-
   return (
     <nav className="px-8 sm:px-0 backdrop-blur-2xl dark:bg-transparent from-inherit bg-white transition-all duration-200 shadow-lg dark:shadow-none sticky top-0">
       <div className="mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16">
           <div className="grid grid-cols-3 items-center justify-items-center w-full">
             <div className="col-span-1 me-auto hover:scale-90 transition-all duration-200">
-              <div
-                className={classNames(
-                  `tham tham-e-squeeze tham-w-6 sm:hidden`,
-                  {
-                    "tham-active": opened,
-                  },
-                )}
-                onClick={toggleMenu}
-              >
-                <div className="tham-box">
-                  <div className="tham-inner" />
-                </div>
-              </div>
+              <NavbarMobile />
 
               <Link href="/" className="hidden sm:block">
                 <Image
