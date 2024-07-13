@@ -6,7 +6,6 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 const PortfolioCard: React.FC<PortfolioCardTypes> = ({
   title,
-  description,
   techStack,
   imageUrl,
   companyName,
@@ -18,7 +17,6 @@ const PortfolioCard: React.FC<PortfolioCardTypes> = ({
 }) => {
   const portfolioModalProps = {
     title,
-    description,
     techStack,
     imageUrl,
     companyName,
