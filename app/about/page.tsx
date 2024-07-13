@@ -1,5 +1,3 @@
-import PortfolioSection from "@/app/projects/PortfolioSection";
-
 const About = () => {
   return (
     <div className="max-w-7xl px-8 xl:px-0 mx-auto py-10 h-full">
