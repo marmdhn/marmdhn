@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import anime from "animejs";
 
-const AnimatedText = () => {
+const AnimatedLogo = () => {
   useEffect(() => {
     const animation = anime({
       targets: ".animated-lines .lines path",
@@ -73,4 +73,4 @@ const AnimatedText = () => {
   );
 };
 
-export default AnimatedText;
+export default AnimatedLogo;
