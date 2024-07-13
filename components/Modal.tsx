@@ -14,14 +14,12 @@ const Modal: React.FC<ModalProps> = ({ title, content }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <Link href="/">
-        <div
-          className="flex justify-end items-center gap-2 transition-all duration-200 hover:text-gray-400 font-semibold dark:text-white dark:hover:text-gray-400"
-          onClick={() => setIsOpen(true)}
-        >
-          Preview <FaArrowRight />
-        </div>
-      </Link>
+      <div
+        className="flex justify-end items-center gap-2 transition-all duration-200 hover:text-gray-400 font-semibold dark:text-white dark:hover:text-gray-400"
+        onClick={() => setIsOpen(true)}
+      >
+        Preview <FaArrowRight />
+      </div>
 
       <Transition
         show={isOpen}
@@ -39,7 +37,7 @@ const Modal: React.FC<ModalProps> = ({ title, content }) => {
             onClick={() => setIsOpen(false)}
           ></div>
           <div className="relative w-auto max-w-3xl mx-auto my-6">
-            <div className="relative bg-gray-400 dark:bg-gray-800 border-0 shadow-lg rounded-lg">
+            <div className="relative bg-gray-300 dark:bg-gray-800 border-0 shadow-lg rounded-lg">
               <div className="flex items-start justify-between p-5 rounded-t">
                 <h3 className="text-2xl font-semibold text-gray-800 dark:text-white">
                   {title}
@@ -58,6 +56,11 @@ const Modal: React.FC<ModalProps> = ({ title, content }) => {
                   {content}
                 </p>
               </div>
+              <Link href="/projects">
+                <div className="flex justify-end items-center gap-2 transition-all duration-200 hover:text-gray-400 font-semibold dark:text-white dark:hover:text-gray-400">
+                  Preview <FaArrowRight />
+                </div>
+              </Link>
             </div>
           </div>
         </div>
