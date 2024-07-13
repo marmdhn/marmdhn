@@ -4,8 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: workspace">
+    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="atyLe: change favicon">
+      <change afterPath="$PROJECT_DIR$/app/projects/PortfolioSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/projects/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/projects/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ClientSideLayout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Loading.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/PortfolioCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/PortfolioModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/portfolios.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/company_profile/ars.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/company_profile/baituladab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/company_profile/ypt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio/imageNotFound.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio/imageTest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/PortfolioCardTypes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/AnimatedText.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/AnimatedLogo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/AnimatedTypingText.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/AnimatedTypingText.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Modal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ToggleDarkMode.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ToggleDarkMode.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,26 +58,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\makba\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\Personal Project\\Coding\\Nextjs\\my-new-portfolio\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Personal Project/Coding/Nextjs/my-new-portfolio/app/projects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\makba\\AppData\\Roaming\\npm\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "D:\\Personal Project\\Coding\\Nextjs\\my-new-portfolio\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Personal Project\Coding\Nextjs\my-new-portfolio\app\projects" />
+      <recent name="D:\Personal Project\Coding\Nextjs\my-new-portfolio\app" />
+      <recent name="D:\Personal Project\Coding\Nextjs\my-new-portfolio\public\music" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Personal Project\Coding\Nextjs\my-new-portfolio\components" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -86,6 +123,8 @@
       <updated>1720671567260</updated>
       <workItem from="1720671569267" duration="9935000" />
       <workItem from="1720710661276" duration="238000" />
+      <workItem from="1720758965749" duration="27620000" />
+      <workItem from="1720836660633" duration="24306000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: remove background theme">
       <option name="closed" value="true" />
@@ -159,7 +198,191 @@
       <option name="project" value="LOCAL" />
       <updated>1720682007890</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refactor: add config for scale &amp; typing animation">
+      <option name="closed" value="true" />
+      <created>1720772706046</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720772706046</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: add music asset">
+      <option name="closed" value="true" />
+      <created>1720772714407</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720772714407</updated>
+    </task>
+    <task id="LOCAL-00012" summary="style: remove padding">
+      <option name="closed" value="true" />
+      <created>1720772725682</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720772725682</updated>
+    </task>
+    <task id="LOCAL-00013" summary="style: adjust stroke width">
+      <option name="closed" value="true" />
+      <created>1720772732905</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720772732905</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: add music player">
+      <option name="closed" value="true" />
+      <created>1720772739049</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1720772739049</updated>
+    </task>
+    <task id="LOCAL-00015" summary="refactor: implement for ui">
+      <option name="closed" value="true" />
+      <created>1720773388236</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1720773388236</updated>
+    </task>
+    <task id="LOCAL-00016" summary="refactor: try adjust favicon">
+      <option name="closed" value="true" />
+      <created>1720773400261</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1720773400261</updated>
+    </task>
+    <task id="LOCAL-00017" summary="refactor: idea">
+      <option name="closed" value="true" />
+      <created>1720773406987</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1720773406987</updated>
+    </task>
+    <task id="LOCAL-00018" summary="refactor: adjust nullable condition for audio ref">
+      <option name="closed" value="true" />
+      <created>1720774043337</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1720774043337</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: add headless ui">
+      <option name="closed" value="true" />
+      <created>1720775534398</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1720775534398</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat: add modal">
+      <option name="closed" value="true" />
+      <created>1720775539844</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1720775539844</updated>
+    </task>
+    <task id="LOCAL-00021" summary="refactor: implement modal coming soon in preview projects">
+      <option name="closed" value="true" />
+      <created>1720775563109</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1720775563109</updated>
+    </task>
+    <task id="LOCAL-00022" summary="refactor: remove unused animation">
+      <option name="closed" value="true" />
+      <created>1720793112183</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1720793112183</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat: add react icons &amp; react type animation">
+      <option name="closed" value="true" />
+      <created>1720793131191</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1720793131191</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat: add toggle dark mode">
+      <option name="closed" value="true" />
+      <created>1720793172348</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1720793172348</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat: add animated typing text">
+      <option name="closed" value="true" />
+      <created>1720793179775</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1720793179775</updated>
+    </task>
+    <task id="LOCAL-00026" summary="style: adjust dark mode">
+      <option name="closed" value="true" />
+      <created>1720793190132</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1720793190132</updated>
+    </task>
+    <task id="LOCAL-00027" summary="style: adjust dark mode">
+      <option name="closed" value="true" />
+      <created>1720793193544</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1720793193544</updated>
+    </task>
+    <task id="LOCAL-00028" summary="style: adjust dark mode">
+      <option name="closed" value="true" />
+      <created>1720793196156</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1720793196156</updated>
+    </task>
+    <task id="LOCAL-00029" summary="style: remove unused style">
+      <option name="closed" value="true" />
+      <created>1720793203178</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1720793203178</updated>
+    </task>
+    <task id="LOCAL-00030" summary="refactor: adjust nullable">
+      <option name="closed" value="true" />
+      <created>1720793367385</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1720793367385</updated>
+    </task>
+    <task id="LOCAL-00031" summary="atyLe: adjust dark mode">
+      <option name="closed" value="true" />
+      <created>1720793573378</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1720793573378</updated>
+    </task>
+    <task id="LOCAL-00032" summary="atyLe: change favicon">
+      <option name="closed" value="true" />
+      <created>1720794382576</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1720794382576</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,15 +390,31 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor: remove background theme" />
-    <MESSAGE value="feat: add anime js" />
-    <MESSAGE value="feat: add logo &amp; profile" />
-    <MESSAGE value="feat: add animated grid" />
-    <MESSAGE value="feat: add animated text" />
     <MESSAGE value="style: change text wrap to normal" />
     <MESSAGE value="refactor: adjust meta data" />
     <MESSAGE value="refactor: implement layout &amp; animated components" />
     <MESSAGE value="refactor: workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: workspace" />
+    <MESSAGE value="refactor: add config for scale &amp; typing animation" />
+    <MESSAGE value="feat: add music asset" />
+    <MESSAGE value="style: remove padding" />
+    <MESSAGE value="style: adjust stroke width" />
+    <MESSAGE value="feat: add music player" />
+    <MESSAGE value="refactor: implement for ui" />
+    <MESSAGE value="refactor: try adjust favicon" />
+    <MESSAGE value="refactor: idea" />
+    <MESSAGE value="refactor: adjust nullable condition for audio ref" />
+    <MESSAGE value="feat: add headless ui" />
+    <MESSAGE value="feat: add modal" />
+    <MESSAGE value="refactor: implement modal coming soon in preview projects" />
+    <MESSAGE value="refactor: remove unused animation" />
+    <MESSAGE value="feat: add react icons &amp; react type animation" />
+    <MESSAGE value="feat: add toggle dark mode" />
+    <MESSAGE value="feat: add animated typing text" />
+    <MESSAGE value="style: adjust dark mode" />
+    <MESSAGE value="style: remove unused style" />
+    <MESSAGE value="refactor: adjust nullable" />
+    <MESSAGE value="atyLe: adjust dark mode" />
+    <MESSAGE value="atyLe: change favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="atyLe: change favicon" />
   </component>
 </project>
