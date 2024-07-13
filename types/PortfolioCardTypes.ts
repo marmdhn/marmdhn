@@ -1,6 +1,5 @@
 export interface PortfolioCardTypes {
   title: string;
-  description: string;
   techStack: string[];
   imageUrl?: string;
   companyName: string;
