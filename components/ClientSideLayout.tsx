@@ -17,7 +17,7 @@ export default function ClientSideLayout({ children }: ClientSideLayoutProps) {
     } else {
       document.documentElement.classList.remove("dark");
     }
-    setIsLoading(false);
+    setTimeout(() => setIsLoading(false), 1000);
   }, []);
 
   if (isLoading) {
