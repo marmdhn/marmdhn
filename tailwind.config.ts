@@ -1,6 +1,4 @@
-import type { Config } from "tailwindcss";
-
-const config: Config = {
+const config = {
   darkMode: "class",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,6 +7,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#27BBA0",
+        secondary: "#6A7CD3",
+        "secondary-dark": "#3A4DA9",
+      },
       keyframes: {
         scale: {
           "0%, 100%": { transform: "scale(1)" },
@@ -26,6 +29,6 @@ const config: Config = {
       textColor: ["dark"],
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-hamburgers")],
 };
 export default config;
