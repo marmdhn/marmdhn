@@ -17,9 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.className} h-full bg-gray-100 dark:bg-gray-900 transition-all duration-200`}
-      >
+      <body className={`${inter.className} h-full`}>
         <ClientSideLayout>{children}</ClientSideLayout>
       </body>
     </html>
