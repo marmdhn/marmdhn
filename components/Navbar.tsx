@@ -38,7 +38,6 @@ const Navbar = () => {
                 <Image
                   src="/mar_logo.svg"
                   alt="Logo"
-                  className="dark:invert"
                   width={75}
                   height={24}
                   priority
@@ -50,7 +49,6 @@ const Navbar = () => {
                 <Image
                   src="/mar_logo.svg"
                   alt="Logo"
-                  className="dark:invert"
                   width={75}
                   height={24}
                   priority
