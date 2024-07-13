@@ -1,8 +1,12 @@
-// components/Loading.js
 const Loading = () => {
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-white dark:bg-gray-900">
-      <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-gray-900 dark:border-white"></div>
+    <div className="fixed inset-0 flex items-center justify-center bg-white dark:bg-gray-900 transition-all duration-200 ease-in-out">
+      <div className="relative flex items-center justify-center">
+        <div className="animate-spin rounded-full h-40 w-40 border-t-2 border-b-2 border-gray-900 dark:border-white"></div>
+        <span className="absolute text-gray-900 dark:text-white">
+          Loading Assets...
+        </span>
+      </div>
     </div>
   );
 };
