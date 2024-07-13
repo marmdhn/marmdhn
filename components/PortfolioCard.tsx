@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { PortfolioCardTypes } from "@/types/PortfolioCardTypes";
 import PortfolioModal from "@/components/PortfolioModal";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const PortfolioCard: React.FC<PortfolioCardTypes> = ({
   title,
@@ -57,9 +58,38 @@ const PortfolioCard: React.FC<PortfolioCardTypes> = ({
             </span>
           ))}
         </div>
-        <div className="w-full flex justify-end">
-          <PortfolioModal portfolio={portfolioModalProps} />
+
+        <div className="flex gap-4">
+          {githubRepo ? (
+            <a
+              href={githubRepo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              GitHub Repo <FaExternalLinkAlt className="inline ml-1" />
+            </a>
+          ) : (
+            <span className="text-gray-400">GitHub Repo not available</span>
+          )}
+
+          {webUrl ? (
+            <a
+              href={webUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              Website URL <FaExternalLinkAlt className="inline ml-1" />
+            </a>
+          ) : (
+            <span className="text-gray-400">Website URL not available</span>
+          )}
         </div>
+
+        {/*<div className="w-full flex justify-end">*/}
+        {/*  <PortfolioModal portfolio={portfolioModalProps} />*/}
+        {/*</div>*/}
       </div>
     </div>
   );
