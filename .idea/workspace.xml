@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: adjust children types any" />
+    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: idea">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PortfolioCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/PortfolioCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mar_logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/mar_logo.svg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,47 +100,7 @@
       <workItem from="1720671569267" duration="9935000" />
       <workItem from="1720710661276" duration="238000" />
       <workItem from="1720758965749" duration="27620000" />
-      <workItem from="1720836660633" duration="24943000" />
-    </task>
-    <task id="LOCAL-00006" summary="style: change text wrap to normal">
-      <option name="closed" value="true" />
-      <created>1720681973131</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1720681973131</updated>
-    </task>
-    <task id="LOCAL-00007" summary="refactor: adjust meta data">
-      <option name="closed" value="true" />
-      <created>1720681981137</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1720681981137</updated>
-    </task>
-    <task id="LOCAL-00008" summary="refactor: implement layout &amp; animated components">
-      <option name="closed" value="true" />
-      <created>1720681999845</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1720681999845</updated>
-    </task>
-    <task id="LOCAL-00009" summary="refactor: workspace">
-      <option name="closed" value="true" />
-      <created>1720682007890</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1720682007890</updated>
-    </task>
-    <task id="LOCAL-00010" summary="refactor: add config for scale &amp; typing animation">
-      <option name="closed" value="true" />
-      <created>1720772706046</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1720772706046</updated>
+      <workItem from="1720836660633" duration="25713000" />
     </task>
     <task id="LOCAL-00011" summary="feat: add music asset">
       <option name="closed" value="true" />
@@ -490,7 +454,47 @@
       <option name="project" value="LOCAL" />
       <updated>1720880282969</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="feat: change image logo">
+      <option name="closed" value="true" />
+      <created>1720880621821</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1720880621821</updated>
+    </task>
+    <task id="LOCAL-00056" summary="style: remove class invert on dark mode">
+      <option name="closed" value="true" />
+      <created>1720880639969</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1720880639969</updated>
+    </task>
+    <task id="LOCAL-00057" summary="refactor: adjust undefined">
+      <option name="closed" value="true" />
+      <created>1720880648909</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1720880648909</updated>
+    </task>
+    <task id="LOCAL-00058" summary="style: remove class invert on dark mode">
+      <option name="closed" value="true" />
+      <created>1720880653144</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1720880653144</updated>
+    </task>
+    <task id="LOCAL-00059" summary="refactor: idea">
+      <option name="closed" value="true" />
+      <created>1720880660841</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1720880660841</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,9 +502,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor: adjust nullable" />
-    <MESSAGE value="atyLe: adjust dark mode" />
-    <MESSAGE value="atyLe: change favicon" />
     <MESSAGE value="refactor: add colors theme &amp; plugins" />
     <MESSAGE value="feat: add plugins" />
     <MESSAGE value="feat: add Portfolio Card Types" />
@@ -521,8 +522,11 @@
     <MESSAGE value="refactor: adjust ui" />
     <MESSAGE value="feat: add projects page" />
     <MESSAGE value="feat: add porfolio section in projects page" />
-    <MESSAGE value="refactor: idea" />
     <MESSAGE value="refactor: adjust children types any" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: adjust children types any" />
+    <MESSAGE value="feat: change image logo" />
+    <MESSAGE value="refactor: adjust undefined" />
+    <MESSAGE value="style: remove class invert on dark mode" />
+    <MESSAGE value="refactor: idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: idea" />
   </component>
 </project>
