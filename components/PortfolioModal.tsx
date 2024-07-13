@@ -36,13 +36,13 @@ const PortfolioModal: React.FC<PortfolioModalProps> = ({ portfolio }) => {
 
   const nextImage = () => {
     setSelectedImageIndex((prevIndex) =>
-      prevIndex === portfolio?.images.length - 1 ? 0 : prevIndex + 1,
+      prevIndex === portfolio!.images.length - 1 ? 0 : prevIndex + 1,
     );
   };
 
   const prevImage = () => {
     setSelectedImageIndex((prevIndex) =>
-      prevIndex === 0 ? portfolio?.images.length - 1 : prevIndex - 1,
+      prevIndex === 0 ? portfolio!.images.length - 1 : prevIndex - 1,
     );
   };
 
@@ -98,7 +98,7 @@ const PortfolioModal: React.FC<PortfolioModalProps> = ({ portfolio }) => {
               </div>
 
               <div className="relative px-6 pb-6 flex-auto">
-                {portfolio?.images.length !== 0 && (
+                {portfolio!.images.length !== 0 && (
                   <div className="relative">
                     <Image
                       unoptimized
@@ -106,7 +106,7 @@ const PortfolioModal: React.FC<PortfolioModalProps> = ({ portfolio }) => {
                       height={100}
                       className="w-full h-96 object-contain rounded-lg object-center mb-4"
                       src={`/images/portfolio/${
-                        portfolio?.images[selectedImageIndex] ??
+                        portfolio!.images[selectedImageIndex] ??
                         "imageNotFound.png"
                       }`}
                       alt={portfolio?.title as string}
