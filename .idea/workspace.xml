@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: remove unused import">
-      <change afterPath="$PROJECT_DIR$/app/about/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/about/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,30 +100,6 @@
       <workItem from="1720710661276" duration="238000" />
       <workItem from="1720758965749" duration="27620000" />
       <workItem from="1720836660633" duration="25713000" />
-    </task>
-    <task id="LOCAL-00029" summary="style: remove unused style">
-      <option name="closed" value="true" />
-      <created>1720793203178</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1720793203178</updated>
-    </task>
-    <task id="LOCAL-00030" summary="refactor: adjust nullable">
-      <option name="closed" value="true" />
-      <created>1720793367385</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1720793367385</updated>
-    </task>
-    <task id="LOCAL-00031" summary="atyLe: adjust dark mode">
-      <option name="closed" value="true" />
-      <created>1720793573378</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1720793573378</updated>
     </task>
     <task id="LOCAL-00032" summary="atyLe: change favicon">
       <option name="closed" value="true" />
@@ -494,7 +469,31 @@
       <option name="project" value="LOCAL" />
       <updated>1720883936934</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="feat: add about page">
+      <option name="closed" value="true" />
+      <created>1720884197106</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1720884197106</updated>
+    </task>
+    <task id="LOCAL-00079" summary="refactor: idea">
+      <option name="closed" value="true" />
+      <created>1720884212687</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1720884212687</updated>
+    </task>
+    <task id="LOCAL-00080" summary="refactor: remove unused import">
+      <option name="closed" value="true" />
+      <created>1720884231043</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1720884231043</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,7 +501,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor: change filename" />
     <MESSAGE value="style: add html &amp; body style" />
     <MESSAGE value="refactor: implement client side layout" />
     <MESSAGE value="refactor: adjust ui" />
@@ -525,6 +523,7 @@
     <MESSAGE value="feat: add navbar mobile" />
     <MESSAGE value="refactor: move navbar mobile to another component" />
     <MESSAGE value="refactor: remove head tag" />
+    <MESSAGE value="feat: add about page" />
     <MESSAGE value="refactor: idea" />
     <MESSAGE value="refactor: remove unused import" />
     <option name="LAST_COMMIT_MESSAGE" value="refactor: remove unused import" />
