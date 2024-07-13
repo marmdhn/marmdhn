@@ -16,9 +16,7 @@ export default function ProjectsLayout({ children }: ProjectsLayoutProps) {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <main className="flex-grow">
-        <ClientSideLayout>{children}</ClientSideLayout>
-      </main>
+      <main className="flex-grow">{children}</main>
       <Footer />
     </div>
   );
