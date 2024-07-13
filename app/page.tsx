@@ -1,13 +1,17 @@
 import Image from "next/image";
 import AnimatedGrid from "@/components/AnimatedGrid";
-import AnimatedText from "@/components/AnimatedText";
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
+import AnimatedLogo from "@/components/AnimatedLogo";
+import {
+  FaArrowRight,
+  FaGithub,
+  FaInstagram,
+  FaLinkedin,
+} from "react-icons/fa6";
 import Link from "next/link";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiNuxtdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import MusicPlayer from "@/components/MusicPlayer";
-import Modal from "@/components/Modal";
 import AnimatedTypingText from "@/components/AnimatedTypingText";
 import ToggleDarkMode from "@/components/ToggleDarkMode";
 
@@ -29,7 +33,7 @@ export default function Home() {
             By{" "}
             <Image
               src="/mar_logo.svg"
-              alt="Vercel Logo"
+              alt="Logo"
               className="dark:invert"
               width={75}
               height={24}
@@ -65,10 +69,11 @@ export default function Home() {
                 Preview of the projects I&apos;ve previously built.
               </p>
             </div>
-            <Modal
-              title="Notification!"
-              content="This feature will be available soon"
-            />
+            <Link href="/projects">
+              <div className="flex justify-end items-center gap-2 transition-all duration-200 hover:text-gray-400 font-semibold dark:text-white dark:hover:text-gray-400">
+                Preview <FaArrowRight />
+              </div>
+            </Link>
           </div>
         </div>
         <div className="col-span-2 sm:col-span-1 bg-gray-300 dark:bg-gray-800 transition-all duration-200 shadow-xl dark:shadow-none p-4 rounded-lg">
@@ -78,7 +83,7 @@ export default function Home() {
           <AnimatedGrid />
         </div>
         <div className="col-span-2 sm:col-span-2 lg:col-span-2 row-span-3 bg-gray-300 dark:bg-gray-800 transition-all duration-200 shadow-xl dark:shadow-none p-4 rounded-lg flex items-center justify-center">
-          <AnimatedText />
+          <AnimatedLogo />
         </div>
         <div className="col-span-1 lg:row-span-5 bg-gray-300 dark:bg-gray-800 transition-all duration-200 shadow-xl dark:shadow-none p-4 rounded-lg flex items-center justify-center">
           <span className="text-gray-800 dark:text-gray-200 text-center">
@@ -88,7 +93,10 @@ export default function Home() {
             </h1>
           </span>
         </div>
-        <div className="col-span-1 row-span-3 lg:row-span-4 bg-gray-300 dark:bg-gray-800 transition-all duration-200 shadow-xl dark:shadow-none p-4 rounded-lg flex items-center justify-center">
+        <div className="col-span-1 row-span-3 lg:row-span-4 bg-gray-300 dark:bg-gray-800 transition-all duration-200 shadow-xl dark:shadow-none p-4 rounded-lg flex flex-col gap-4 items-center justify-center">
+          <span className="text-gray-800 dark:text-white text-lg text-center">
+            Wow, what a cool site?
+          </span>
           <div className="flex gap-2 justify-center items-center">
             <span className="sr-only">Loading...</span>
             <div className="h-4 w-4 bg-gray-800 dark:bg-white rounded-full animate-bounce [animation-delay:-0.3s]"></div>
@@ -113,10 +121,7 @@ export default function Home() {
                 className="transition-all duration-200 hover:text-gray-400 hover:cursor-pointer text-gray-800 dark:text-white dark:hover:text-gray-400"
               />
             </Link>
-            <Link
-              href="https://github.com/makbarramadhan62?tab=repositories"
-              target="_blank"
-            >
+            <Link href="https://github.com/makbarramadhan62" target="_blank">
               <FaGithub
                 size={36}
                 className="transition-all duration-200 hover:text-gray-400 hover:cursor-pointer text-gray-800 dark:text-white dark:hover:text-gray-400"
