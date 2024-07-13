@@ -59,7 +59,7 @@ const PortfolioCard: React.FC<PortfolioCardTypes> = ({
           ))}
         </div>
 
-        <div className="flex gap-4">
+        <div className="flex justify-start items-center gap-4">
           {githubRepo ? (
             <a
               href={githubRepo}
@@ -87,9 +87,9 @@ const PortfolioCard: React.FC<PortfolioCardTypes> = ({
           )}
         </div>
 
-        {/*<div className="w-full flex justify-end">*/}
-        {/*  <PortfolioModal portfolio={portfolioModalProps} />*/}
-        {/*</div>*/}
+        <div className="w-full flex justify-start mt-4">
+          <PortfolioModal portfolio={portfolioModalProps} />
+        </div>
       </div>
     </div>
   );
