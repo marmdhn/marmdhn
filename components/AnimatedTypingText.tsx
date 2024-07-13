@@ -17,7 +17,7 @@ const AnimatedTypingText = () => {
       wrapper="span"
       cursor={true}
       repeat={Infinity}
-      className="text-xl font-bold text-gray-800 dark:text-white"
+      className="text-xl font-bold text-gray-800 dark:text-white text-center"
     />
   );
 };
