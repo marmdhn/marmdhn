@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: remove unused import">
+    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: remove ClientSideLayout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/projects/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/projects/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,30 +103,6 @@
       <workItem from="1720710661276" duration="238000" />
       <workItem from="1720758965749" duration="27620000" />
       <workItem from="1720836660633" duration="25713000" />
-    </task>
-    <task id="LOCAL-00032" summary="atyLe: change favicon">
-      <option name="closed" value="true" />
-      <created>1720794382576</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1720794382576</updated>
-    </task>
-    <task id="LOCAL-00033" summary="refactor: add colors theme &amp; plugins">
-      <option name="closed" value="true" />
-      <created>1720879761512</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1720879761512</updated>
-    </task>
-    <task id="LOCAL-00034" summary="feat: add plugins">
-      <option name="closed" value="true" />
-      <created>1720879780495</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1720879780495</updated>
     </task>
     <task id="LOCAL-00035" summary="feat: add Portfolio Card Types">
       <option name="closed" value="true" />
@@ -493,7 +472,31 @@
       <option name="project" value="LOCAL" />
       <updated>1720884231043</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="refactor: idea">
+      <option name="closed" value="true" />
+      <created>1720884976304</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1720884976304</updated>
+    </task>
+    <task id="LOCAL-00082" summary="style: adjust colot">
+      <option name="closed" value="true" />
+      <created>1720885117549</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1720885117549</updated>
+    </task>
+    <task id="LOCAL-00083" summary="refactor: remove ClientSideLayout">
+      <option name="closed" value="true" />
+      <created>1720886486161</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1720886486161</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,8 +504,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="style: add html &amp; body style" />
-    <MESSAGE value="refactor: implement client side layout" />
     <MESSAGE value="refactor: adjust ui" />
     <MESSAGE value="feat: add projects page" />
     <MESSAGE value="feat: add porfolio section in projects page" />
@@ -524,8 +525,10 @@
     <MESSAGE value="refactor: move navbar mobile to another component" />
     <MESSAGE value="refactor: remove head tag" />
     <MESSAGE value="feat: add about page" />
-    <MESSAGE value="refactor: idea" />
     <MESSAGE value="refactor: remove unused import" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: remove unused import" />
+    <MESSAGE value="refactor: idea" />
+    <MESSAGE value="style: adjust colot" />
+    <MESSAGE value="refactor: remove ClientSideLayout" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: remove ClientSideLayout" />
   </component>
 </project>
