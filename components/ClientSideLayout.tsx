@@ -1,10 +1,13 @@
-// components/ClientSideLayout.js
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, ReactNode } from "react";
 import Loading from "@/components/Loading";
 
-export default function ClientSideLayout({ children }) {
+interface ClientSideLayoutProps {
+  children: ReactNode;
+}
+
+export default function ClientSideLayout({ children }: ClientSideLayoutProps) {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
