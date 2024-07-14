@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, ReactNode } from "react";
-import Loading from "@/components/Loading";
+import AnimatedLoading from "@/components/AnimatedLoading";
 
 interface ClientSideLayoutProps {
   children: ReactNode;
@@ -21,7 +21,7 @@ export default function ClientSideLayout({ children }: ClientSideLayoutProps) {
   }, []);
 
   if (isLoading) {
-    return <Loading />;
+    return <AnimatedLoading />;
   }
 
   return <>{children}</>;
