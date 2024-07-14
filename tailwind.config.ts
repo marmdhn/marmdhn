@@ -18,9 +18,14 @@ const config = {
           "0%, 100%": { transform: "scale(1)" },
           "50%": { transform: "scale(1.1)" },
         },
+        gradient: {
+          "0%, 100%": { backgroundPosition: "0% 0%" },
+          "50%": { backgroundPosition: "100% 100%" },
+        },
       },
       animation: {
         scale: "scale 2s infinite ease-in-out",
+        gradient: "gradient 5s ease infinite",
       },
     },
   },
