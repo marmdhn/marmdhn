@@ -19,12 +19,7 @@ const Navbar = () => {
 
   return (
     <nav className="px-8 sm:px-0 backdrop-blur-2xl dark:bg-transparent from-inherit bg-white transition-all duration-200 shadow-lg sticky top-0 z-50 overflow-hidden">
-      <motion.div
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="mx-auto px-2 sm:px-6 lg:px-8"
-      >
+      <div className="mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16">
           <div className="grid grid-cols-3 items-center justify-items-center w-full">
             <div className="col-span-1 me-auto hover:scale-90 transition-all duration-200">
@@ -50,7 +45,12 @@ const Navbar = () => {
                   priority
                 />
               </Link>
-              <div className="space-x-4 justify-center hidden sm:flex">
+              <motion.div
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+                className="space-x-4 justify-center hidden sm:flex"
+              >
                 <Link
                   href="/"
                   className={`text-gray-900 px-3 py-2 rounded-md text-lg font-semibold ${
@@ -82,7 +82,7 @@ const Navbar = () => {
                 >
                   About
                 </Link>
-              </div>
+              </motion.div>
             </div>
             <div className="col-span-1 ms-auto hidden sm:block">
               <div className="flex gap-4">
@@ -100,7 +100,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </motion.div>
+      </div>
     </nav>
   );
 };
