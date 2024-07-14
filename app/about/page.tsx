@@ -1,3 +1,5 @@
+import AboutMeSection from "@/app/about/AboutMeSection";
+
 const About = () => {
   return (
     <div className="max-w-7xl px-8 xl:px-0 mx-auto py-10 h-full">
@@ -9,6 +11,8 @@ const About = () => {
           </p>
         </div>
       </div>
+
+      <AboutMeSection />
     </div>
   );
 };
