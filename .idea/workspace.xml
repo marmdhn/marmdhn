@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: implement UI">
-      <change afterPath="$PROJECT_DIR$/app/about/ClientSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/companies/comingsoon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/about/ExperienceSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/ExperienceSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/baitul-adab.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/portfolio/baitul-adab.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/imageNotFound.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/portfolio/imageNotFound.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
-    </list>
+    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: idea" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,54 +99,6 @@
       <workItem from="1720758965749" duration="27620000" />
       <workItem from="1720836660633" duration="25713000" />
       <workItem from="1720926012472" duration="2482000" />
-    </task>
-    <task id="LOCAL-00058" summary="style: remove class invert on dark mode">
-      <option name="closed" value="true" />
-      <created>1720880653144</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1720880653144</updated>
-    </task>
-    <task id="LOCAL-00059" summary="refactor: idea">
-      <option name="closed" value="true" />
-      <created>1720880660841</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1720880660841</updated>
-    </task>
-    <task id="LOCAL-00060" summary="refactor: remove description">
-      <option name="closed" value="true" />
-      <created>1720883274098</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1720883274098</updated>
-    </task>
-    <task id="LOCAL-00061" summary="feat: add image baitul adab">
-      <option name="closed" value="true" />
-      <created>1720883281439</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1720883281439</updated>
-    </task>
-    <task id="LOCAL-00062" summary="refactor: remove description">
-      <option name="closed" value="true" />
-      <created>1720883287569</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1720883287569</updated>
-    </task>
-    <task id="LOCAL-00063" summary="refactor: add timeout for loading animation">
-      <option name="closed" value="true" />
-      <created>1720883296511</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1720883296511</updated>
     </task>
     <task id="LOCAL-00064" summary="refactor: add text">
       <option name="closed" value="true" />
@@ -502,7 +444,55 @@
       <option name="project" value="LOCAL" />
       <updated>1720952502359</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="feat: add images">
+      <option name="closed" value="true" />
+      <created>1720958664470</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1720958664470</updated>
+    </task>
+    <task id="LOCAL-00108" summary="refactor: add motion animation">
+      <option name="closed" value="true" />
+      <created>1720958678410</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1720958678410</updated>
+    </task>
+    <task id="LOCAL-00109" summary="feat: add client section">
+      <option name="closed" value="true" />
+      <created>1720958686487</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1720958686487</updated>
+    </task>
+    <task id="LOCAL-00110" summary="refactor: adjust filename &amp; active condition">
+      <option name="closed" value="true" />
+      <created>1720958709693</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1720958709693</updated>
+    </task>
+    <task id="LOCAL-00111" summary="refactor: implement client section">
+      <option name="closed" value="true" />
+      <created>1720958718740</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1720958718740</updated>
+    </task>
+    <task id="LOCAL-00112" summary="refactor: idea">
+      <option name="closed" value="true" />
+      <created>1720958724391</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1720958724391</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,10 +500,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor: move navbar mobile to another component" />
-    <MESSAGE value="refactor: remove head tag" />
-    <MESSAGE value="feat: add about page" />
-    <MESSAGE value="style: adjust colot" />
     <MESSAGE value="refactor: remove ClientSideLayout" />
     <MESSAGE value="refactor: remove unused import" />
     <MESSAGE value="style: adjust color" />
@@ -525,16 +511,20 @@
     <MESSAGE value="refactor: adjust props" />
     <MESSAGE value="feat: add frame motion" />
     <MESSAGE value="refactor: add gradient animation" />
-    <MESSAGE value="feat: add images" />
     <MESSAGE value="refactor: implement framer motion" />
     <MESSAGE value="style: adjust background color" />
     <MESSAGE value="refactor: change file name &amp; function name" />
-    <MESSAGE value="refactor: idea" />
     <MESSAGE value="feat: add Experience Section" />
     <MESSAGE value="feat: add modal preview cv" />
     <MESSAGE value="refactor: implement for active path" />
     <MESSAGE value="refactor: implement section about &amp; experience" />
     <MESSAGE value="refactor: implement UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: implement UI" />
+    <MESSAGE value="feat: add images" />
+    <MESSAGE value="refactor: add motion animation" />
+    <MESSAGE value="feat: add client section" />
+    <MESSAGE value="refactor: adjust filename &amp; active condition" />
+    <MESSAGE value="refactor: implement client section" />
+    <MESSAGE value="refactor: idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: idea" />
   </component>
 </project>
