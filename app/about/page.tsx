@@ -1,4 +1,5 @@
 import AboutMeSection from "@/app/about/AboutMeSection";
+import ExperienceSection from "@/app/about/ExperienceSection";
 
 const About = () => {
   return (
@@ -7,12 +8,14 @@ const About = () => {
         <div className="flex flex-col gap-2">
           <h1 className="text-4xl font-bold text-primary mt-4">About Me</h1>
           <p className="text-gray-700 dark:text-gray-300 text-lg font-semibold">
-            Comming Soon.
+            marmdhn.
           </p>
         </div>
       </div>
-
-      <AboutMeSection />
+      <div className="flex flex-col gap-4">
+        <AboutMeSection />
+        <ExperienceSection />
+      </div>
     </div>
   );
 };
