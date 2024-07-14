@@ -1,10 +1,18 @@
+"use client";
+
 import Link from "next/link";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
     <footer className="relative bottom-0 w-full mb-12">
-      <div className="container mx-auto">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="container mx-auto"
+      >
         <div className="w-full pt-10">
           <div className="flex items-center justify-center mb-5">
             <Link
@@ -51,7 +59,7 @@ const Footer = () => {
             .
           </p>
         </div>
-      </div>
+      </motion.div>
     </footer>
   );
 };
