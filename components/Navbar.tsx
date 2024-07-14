@@ -6,7 +6,7 @@ import NavbarMobile from "@/components/NavbarMobile";
 
 const Navbar = () => {
   return (
-    <nav className="px-8 sm:px-0 backdrop-blur-2xl dark:bg-transparent from-inherit bg-white transition-all duration-200 shadow-lg dark:shadow-none sticky top-0">
+    <nav className="px-8 sm:px-0 backdrop-blur-2xl dark:bg-transparent from-inherit bg-white transition-all duration-200 shadow-lg sticky top-0">
       <div className="mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16">
           <div className="grid grid-cols-3 items-center justify-items-center w-full">
