@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import { PortfolioCardTypes } from "@/types/PortfolioCardTypes";
-import PortfolioModal from "@/components/PortfolioModal";
+import ModalPortfolio from "@/components/ModalPortfolio";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
-const PortfolioCard: React.FC<PortfolioCardTypes> = ({
+const CardPortfolio: React.FC<PortfolioCardTypes> = ({
   title,
   techStack,
   imageUrl,
@@ -86,11 +86,11 @@ const PortfolioCard: React.FC<PortfolioCardTypes> = ({
         </div>
 
         <div className="w-full flex justify-start mt-4">
-          <PortfolioModal portfolio={portfolioModalProps} />
+          <ModalPortfolio portfolio={portfolioModalProps} />
         </div>
       </div>
     </div>
   );
 };
 
-export default PortfolioCard;
+export default CardPortfolio;

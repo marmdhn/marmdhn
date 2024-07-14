@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import PortfolioCard from "@/components/PortfolioCard";
+import CardPortfolio from "@/components/CardPortfolio";
 import { portfolios } from "@/data/portfolios";
 
 const PortfolioSection = () => {
@@ -46,7 +46,7 @@ const PortfolioSection = () => {
       >
         {filteredPortfolios.map((portfolio, index) => (
           <div key={index} className="flex justify-center">
-            <PortfolioCard
+            <CardPortfolio
               title={portfolio.title}
               techStack={portfolio.techStack}
               imageUrl={portfolio.imageUrl}

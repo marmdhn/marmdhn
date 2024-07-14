@@ -10,7 +10,7 @@ interface PortfolioModalProps {
   portfolio: PortfolioCardTypes | null;
 }
 
-const PortfolioModal: React.FC<PortfolioModalProps> = ({ portfolio }) => {
+const ModalPortfolio: React.FC<PortfolioModalProps> = ({ portfolio }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
 
@@ -138,4 +138,4 @@ const PortfolioModal: React.FC<PortfolioModalProps> = ({ portfolio }) => {
   );
 };
 
-export default PortfolioModal;
+export default ModalPortfolio;
