@@ -49,7 +49,12 @@ const item = {
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-6 sm:p-12 md:p-24 sm:pt-4 sm:pb-24 md:pt-4 md:pb-24 gap-4">
-      <div className="z-50 w-full max-w-7xl items-center justify-between font-mono text-sm lg:flex">
+      <motion.div
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="z-50 w-full max-w-7xl items-center justify-between font-mono text-sm lg:flex"
+      >
         <div className="fixed font-bold left-0 top-0 flex gap-4 w-full justify-center pb-6 pt-8 backdrop-blur-2xl dark:bg-transparent lg:dark:bg-gray-800/50 lg:static lg:w-auto lg:rounded-xl lg:bg-gray-300/50 lg:p-4 transition-all duration-200">
           <p className="text-gray-800 dark:text-gray-200">My Portfolio</p>
           <ToggleDarkMode />
@@ -66,18 +71,18 @@ export default function Home() {
             />
           </div>
         </div>
-      </div>
+      </motion.div>
 
       <div className="relative">
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, skewX: 0, skewY: 0, x: 25 }}
+          animate={{ opacity: 1, skewX: -25, skewY: -25, x: 0 }}
           transition={{ duration: 0.5 }}
           className="absolute z-10 top-0 right-0 w-32 h-32 bg-primary rounded-full blur-3xl"
         ></motion.div>
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, skewX: 0, skewY: 0, x: -25 }}
+          animate={{ opacity: 1, skewX: 25, skewY: 25, x: 0 }}
           transition={{ duration: 0.5 }}
           className="absolute z-10 bottom-0 left-0 w-32 h-32 bg-secondary/75 rounded-full blur-3xl"
         ></motion.div>

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: idea" />
+    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="style: move text color to text element" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,14 +99,6 @@
       <workItem from="1720758965749" duration="27620000" />
       <workItem from="1720836660633" duration="25713000" />
       <workItem from="1720926012472" duration="2482000" />
-    </task>
-    <task id="LOCAL-00069" summary="style: adjust flex">
-      <option name="closed" value="true" />
-      <created>1720883364358</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1720883364358</updated>
     </task>
     <task id="LOCAL-00070" summary="refactor: add client side layout">
       <option name="closed" value="true" />
@@ -492,7 +484,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720963533770</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="style: move text color to text element">
+      <option name="closed" value="true" />
+      <created>1720964850297</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1720964850297</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,7 +500,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="style: add shadow" />
     <MESSAGE value="refactor: adjust nullable props" />
     <MESSAGE value="refactor: add color primary dark" />
     <MESSAGE value="feat: add about me section" />
@@ -525,6 +524,7 @@
     <MESSAGE value="refactor: adjust framer motion" />
     <MESSAGE value="style: add bg opacity" />
     <MESSAGE value="refactor: idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: idea" />
+    <MESSAGE value="style: move text color to text element" />
+    <option name="LAST_COMMIT_MESSAGE" value="style: move text color to text element" />
   </component>
 </project>
