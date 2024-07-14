@@ -4,12 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: remove unused import">
-      <change afterPath="$PROJECT_DIR$/app/about/AboutMeSection.tsx" afterDir="false" />
+    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: adjust props">
+      <change afterPath="$PROJECT_DIR$/app/about/ExperienceSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ModalPreviewCV.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/documents/CV.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/companies/otak-kanan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/companies/puti.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/AboutMeSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/AboutMeSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/projects/PortfolioSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/projects/PortfolioSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ClientSideLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ClientSideLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/AnimatedLoading.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PortfolioCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CardPortfolio.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PortfolioModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ModalPortfolio.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/company_profile/ars.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/companies/ars.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/company_profile/baituladab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/companies/baituladab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/company_profile/ypt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/companies/ypt.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,70 +122,6 @@
       <workItem from="1720758965749" duration="27620000" />
       <workItem from="1720836660633" duration="25713000" />
       <workItem from="1720926012472" duration="2482000" />
-    </task>
-    <task id="LOCAL-00037" summary="feat: add data portfolios">
-      <option name="closed" value="true" />
-      <created>1720879809569</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1720879809569</updated>
-    </task>
-    <task id="LOCAL-00038" summary="feat: add client side layout">
-      <option name="closed" value="true" />
-      <created>1720879822920</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1720879822920</updated>
-    </task>
-    <task id="LOCAL-00039" summary="feat: add footer">
-      <option name="closed" value="true" />
-      <created>1720879828753</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1720879828753</updated>
-    </task>
-    <task id="LOCAL-00040" summary="feat: add loading">
-      <option name="closed" value="true" />
-      <created>1720879835823</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1720879835823</updated>
-    </task>
-    <task id="LOCAL-00041" summary="feat: add navbar">
-      <option name="closed" value="true" />
-      <created>1720879841197</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1720879841197</updated>
-    </task>
-    <task id="LOCAL-00042" summary="feat: add portfolio card">
-      <option name="closed" value="true" />
-      <created>1720879848523</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1720879848523</updated>
-    </task>
-    <task id="LOCAL-00043" summary="feat: add portfolio moda">
-      <option name="closed" value="true" />
-      <created>1720879852873</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1720879852873</updated>
-    </task>
-    <task id="LOCAL-00044" summary="refactor: add icons size props">
-      <option name="closed" value="true" />
-      <created>1720879872155</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1720879872155</updated>
     </task>
     <task id="LOCAL-00045" summary="refactor: remove link">
       <option name="closed" value="true" />
@@ -499,7 +451,71 @@
       <option name="project" value="LOCAL" />
       <updated>1720886515526</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="style: adjust color">
+      <option name="closed" value="true" />
+      <created>1720937096171</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1720937096171</updated>
+    </task>
+    <task id="LOCAL-00087" summary="style: add shadow">
+      <option name="closed" value="true" />
+      <created>1720937107431</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1720937107431</updated>
+    </task>
+    <task id="LOCAL-00088" summary="refactor: adjust nullable props">
+      <option name="closed" value="true" />
+      <created>1720937118051</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1720937118051</updated>
+    </task>
+    <task id="LOCAL-00089" summary="refactor: add color primary dark">
+      <option name="closed" value="true" />
+      <created>1720937131232</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1720937131232</updated>
+    </task>
+    <task id="LOCAL-00090" summary="feat: add about me section">
+      <option name="closed" value="true" />
+      <created>1720937139494</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1720937139494</updated>
+    </task>
+    <task id="LOCAL-00091" summary="refactor: implement about me section">
+      <option name="closed" value="true" />
+      <created>1720937152253</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1720937152253</updated>
+    </task>
+    <task id="LOCAL-00092" summary="refactor: idea">
+      <option name="closed" value="true" />
+      <created>1720937155863</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1720937155863</updated>
+    </task>
+    <task id="LOCAL-00093" summary="refactor: adjust props">
+      <option name="closed" value="true" />
+      <created>1720939118164</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1720939118164</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,13 +523,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor: adjust ui" />
-    <MESSAGE value="feat: add projects page" />
-    <MESSAGE value="feat: add porfolio section in projects page" />
-    <MESSAGE value="refactor: adjust children types any" />
-    <MESSAGE value="feat: change image logo" />
-    <MESSAGE value="refactor: adjust undefined" />
-    <MESSAGE value="style: remove class invert on dark mode" />
     <MESSAGE value="feat: add image baitul adab" />
     <MESSAGE value="refactor: add timeout for loading animation" />
     <MESSAGE value="refactor: add text" />
@@ -530,8 +539,15 @@
     <MESSAGE value="feat: add about page" />
     <MESSAGE value="style: adjust colot" />
     <MESSAGE value="refactor: remove ClientSideLayout" />
-    <MESSAGE value="refactor: idea" />
     <MESSAGE value="refactor: remove unused import" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: remove unused import" />
+    <MESSAGE value="style: adjust color" />
+    <MESSAGE value="style: add shadow" />
+    <MESSAGE value="refactor: adjust nullable props" />
+    <MESSAGE value="refactor: add color primary dark" />
+    <MESSAGE value="feat: add about me section" />
+    <MESSAGE value="refactor: implement about me section" />
+    <MESSAGE value="refactor: idea" />
+    <MESSAGE value="refactor: adjust props" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: adjust props" />
   </component>
 </project>
