@@ -23,9 +23,9 @@ body,
 }
 
 body {
-  @apply bg-gray-100 transition-all duration-200;
+  @apply bg-white transition-all duration-200;
 }
 
 .dark body {
-  @apply bg-gray-900;
+  @apply bg-[#0D1117];
 }
