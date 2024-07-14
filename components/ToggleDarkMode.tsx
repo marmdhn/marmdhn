@@ -1,29 +1,14 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useTheme } from "next-themes";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 
-const ToggleDarkMode = ({ iconSize }: { iconSize?: number }) => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
-  useEffect(() => {
-    const savedMode = window.localStorage.getItem("darkMode");
-    setIsDarkMode(savedMode ? JSON.parse(savedMode) : false);
-  }, []);
-
-  useEffect(() => {
-    const html = document.querySelector("html");
-    if (isDarkMode) {
-      html?.classList.add("dark");
-    } else {
-      html?.classList.remove("dark");
-    }
-  }, [isDarkMode]);
+const ToggleDarkMode = ({ iconSize }) => {
+  const { theme, setTheme } = useTheme();
+  const isDarkMode = theme === "dark";
 
   const toggleDarkMode = () => {
-    const newMode = !isDarkMode;
-    setIsDarkMode(newMode);
-    window.localStorage.setItem("darkMode", JSON.stringify(newMode));
+    setTheme(isDarkMode ? "light" : "dark");
   };
 
   return (
