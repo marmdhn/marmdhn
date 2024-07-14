@@ -50,8 +50,8 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-6 sm:p-12 md:p-24 sm:pt-4 sm:pb-24 md:pt-4 md:pb-24 gap-4">
       <div className="z-50 w-full max-w-7xl items-center justify-between font-mono text-sm lg:flex">
-        <div className="fixed font-bold left-0 top-0 flex gap-4 w-full justify-center bg-gradient-to-b pb-6 pt-8 backdrop-blur-2xl dark:bg-transparent lg:dark:bg-gray-800/50 from-inherit lg:static lg:w-auto lg:rounded-xl lg:bg-gray-300/50 lg:p-4 text-gray-800 dark:text-gray-200 transition-all duration-200">
-          <p>My Portfolio</p>
+        <div className="fixed font-bold left-0 top-0 flex gap-4 w-full justify-center pb-6 pt-8 backdrop-blur-2xl dark:bg-transparent lg:dark:bg-gray-800/50 lg:static lg:w-auto lg:rounded-xl lg:bg-gray-300/50 lg:p-4 transition-all duration-200">
+          <p className="text-gray-800 dark:text-gray-200">My Portfolio</p>
           <ToggleDarkMode />
         </div>
         <div className="fixed bottom-0 left-0 flex h-24 sm:h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">

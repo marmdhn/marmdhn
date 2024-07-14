@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: compress file size">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: idea" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,38 +99,6 @@
       <workItem from="1720758965749" duration="27620000" />
       <workItem from="1720836660633" duration="25713000" />
       <workItem from="1720926012472" duration="2482000" />
-    </task>
-    <task id="LOCAL-00065" summary="style: adjust layouting">
-      <option name="closed" value="true" />
-      <created>1720883312932</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1720883312932</updated>
-    </task>
-    <task id="LOCAL-00066" summary="refactor: adjust text">
-      <option name="closed" value="true" />
-      <created>1720883324837</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1720883324837</updated>
-    </task>
-    <task id="LOCAL-00067" summary="style: move style background dark mode to global css">
-      <option name="closed" value="true" />
-      <created>1720883345778</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1720883345778</updated>
-    </task>
-    <task id="LOCAL-00068" summary="style: add style background dark mode">
-      <option name="closed" value="true" />
-      <created>1720883353378</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1720883353378</updated>
     </task>
     <task id="LOCAL-00069" summary="style: adjust flex">
       <option name="closed" value="true" />
@@ -497,7 +460,39 @@
       <option name="project" value="LOCAL" />
       <updated>1720958902224</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="refactor: implement framer motion">
+      <option name="closed" value="true" />
+      <created>1720963488718</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1720963488718</updated>
+    </task>
+    <task id="LOCAL-00115" summary="refactor: adjust framer motion">
+      <option name="closed" value="true" />
+      <created>1720963493765</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1720963493765</updated>
+    </task>
+    <task id="LOCAL-00116" summary="style: add bg opacity">
+      <option name="closed" value="true" />
+      <created>1720963504201</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1720963504202</updated>
+    </task>
+    <task id="LOCAL-00117" summary="refactor: idea">
+      <option name="closed" value="true" />
+      <created>1720963533770</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1720963533770</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,8 +500,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor: remove unused import" />
-    <MESSAGE value="style: adjust color" />
     <MESSAGE value="style: add shadow" />
     <MESSAGE value="refactor: adjust nullable props" />
     <MESSAGE value="refactor: add color primary dark" />
@@ -515,7 +508,6 @@
     <MESSAGE value="refactor: adjust props" />
     <MESSAGE value="feat: add frame motion" />
     <MESSAGE value="refactor: add gradient animation" />
-    <MESSAGE value="refactor: implement framer motion" />
     <MESSAGE value="style: adjust background color" />
     <MESSAGE value="refactor: change file name &amp; function name" />
     <MESSAGE value="feat: add Experience Section" />
@@ -528,8 +520,11 @@
     <MESSAGE value="feat: add client section" />
     <MESSAGE value="refactor: adjust filename &amp; active condition" />
     <MESSAGE value="refactor: implement client section" />
-    <MESSAGE value="refactor: idea" />
     <MESSAGE value="refactor: compress file size" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: compress file size" />
+    <MESSAGE value="refactor: implement framer motion" />
+    <MESSAGE value="refactor: adjust framer motion" />
+    <MESSAGE value="style: add bg opacity" />
+    <MESSAGE value="refactor: idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: idea" />
   </component>
 </project>
