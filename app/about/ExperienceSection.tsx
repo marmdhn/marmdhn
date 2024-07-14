@@ -1,5 +1,3 @@
-// components/ExperienceSection.tsx
-
 import Image from "next/image";
 
 const companies = [
@@ -19,7 +17,7 @@ const companies = [
     active: false,
   },
   {
-    src: "/images/companies/YPT.svg",
+    src: "/images/companies/ypt.svg",
     alt: "ypt",
     active: true,
   },
@@ -36,7 +34,9 @@ const ExperienceSection = () => {
           {companies.map((company, index) => (
             <div
               key={index}
-              className="relative flex flex-col justify-center items-center p-4 bg-white bg-opacity-50 rounded-xl shadow-lg backdrop-blur-2xl transition-all duration-200"
+              className={`relative flex flex-col justify-center items-center p-4 bg-white bg-opacity-50 rounded-xl shadow-lg transition-all duration-200 ${
+                company.active && "border-4 border-primary shadow-primary"
+              } animate-rotate`}
             >
               {company.active && (
                 <span className="absolute top-4 text-xl font-bold text-primary-dark animate-scale">
@@ -50,7 +50,7 @@ const ExperienceSection = () => {
                 height={100}
                 priority
                 unoptimized
-                className={`w-3/4 h-auto object-cover transition-all duration-200 hover:scale-125  ${
+                className={`w-3/4 h-auto object-cover transition-all duration-200 hover:scale-110  ${
                   company.active ? "" : "grayscale hover:grayscale-0"
                 }`}
               />
