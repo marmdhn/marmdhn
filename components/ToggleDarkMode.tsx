@@ -3,7 +3,7 @@
 import { useTheme } from "next-themes";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 
-const ToggleDarkMode = ({ iconSize }) => {
+const ToggleDarkMode = ({ iconSize }: { iconSize?: number }) => {
   const { theme, setTheme } = useTheme();
   const isDarkMode = theme === "dark";
 
