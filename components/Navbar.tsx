@@ -7,6 +7,7 @@ import Image from "next/image";
 import NavbarMobile from "@/components/NavbarMobile";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -17,8 +18,13 @@ const Navbar = () => {
   }, [pathname]);
 
   return (
-    <nav className="px-8 sm:px-0 backdrop-blur-2xl dark:bg-transparent from-inherit bg-white transition-all duration-200 shadow-lg sticky top-0">
-      <div className="mx-auto px-2 sm:px-6 lg:px-8">
+    <nav className="px-8 sm:px-0 backdrop-blur-2xl dark:bg-transparent from-inherit bg-white transition-all duration-200 shadow-lg sticky top-0 z-50 overflow-hidden">
+      <motion.div
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="mx-auto px-2 sm:px-6 lg:px-8"
+      >
         <div className="relative flex items-center justify-between h-16">
           <div className="grid grid-cols-3 items-center justify-items-center w-full">
             <div className="col-span-1 me-auto hover:scale-90 transition-all duration-200">
@@ -94,7 +100,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </nav>
   );
 };
