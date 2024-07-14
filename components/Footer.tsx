@@ -10,7 +10,7 @@ const Footer = () => {
             <Link
               href="https://www.instagram.com/marmdhn_/"
               target="_blank"
-              className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-secondary text-secondary hover:border-primary hover:bg-primary hover:text-white"
+              className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-secondary text-gray-800 dark:text-white hover:border-primary hover:bg-primary hover:text-white"
             >
               <FaInstagram size={24} />
             </Link>
@@ -18,7 +18,7 @@ const Footer = () => {
             <Link
               href="https://www.linkedin.com/in/marmdhn/"
               target="_blank"
-              className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-secondary text-secondary hover:border-primary hover:bg-primary hover:text-white"
+              className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-secondary text-gray-800 dark:text-white hover:border-primary hover:bg-primary hover:text-white"
             >
               <FaLinkedin size={24} />
             </Link>
@@ -26,7 +26,7 @@ const Footer = () => {
             <Link
               href="https://github.com/makbarramadhan62"
               target="_blank"
-              className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-secondary text-secondary hover:border-primary hover:bg-primary hover:text-white"
+              className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-secondary text-gray-800 dark:text-white hover:border-primary hover:bg-primary hover:text-white"
             >
               <FaGithub size={24} />
             </Link>
