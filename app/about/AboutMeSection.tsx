@@ -2,7 +2,11 @@ import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import Link from "next/link";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiNuxtdotjs } from "react-icons/si";
+import {
+  SiAdobeaftereffects,
+  SiAdobepremierepro,
+  SiNuxtdotjs,
+} from "react-icons/si";
 import { RiFlutterFill, RiTailwindCssFill } from "react-icons/ri";
 import { FaPython } from "react-icons/fa6";
 import { PiFigmaLogoFill } from "react-icons/pi";
@@ -101,6 +105,35 @@ const AboutMeSection = () => {
               </Link>
               <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-max bg-gray-800 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 Python
+              </div>
+            </div>
+            <div className="relative group">
+              <Link
+                href="https://www.adobe.com/id_id/products/premiere.html"
+                target="_blank"
+              >
+                <SiAdobepremierepro
+                  size={36}
+                  className="transition-all duration-200 hover:text-gray-400 hover:cursor-pointer text-gray-800 dark:text-white dark:hover:text-gray-400"
+                />
+              </Link>
+              <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-max bg-gray-800 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Adobe Premiere Pro
+              </div>
+            </div>
+
+            <div className="relative group">
+              <Link
+                href="https://www.adobe.com/id_id/products/aftereffects.html"
+                target="_blank"
+              >
+                <SiAdobeaftereffects
+                  size={36}
+                  className="transition-all duration-200 hover:text-gray-400 hover:cursor-pointer text-gray-800 dark:text-white dark:hover:text-gray-400"
+                />
+              </Link>
+              <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-max bg-gray-800 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Adobe After Effects
               </div>
             </div>
           </div>
