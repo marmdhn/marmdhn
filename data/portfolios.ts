@@ -61,6 +61,17 @@ export const portfolios: PortfolioCardTypes[] = [
     githubRepo: "https://github.com/makbarramadhan62/haloYPT",
   },
   {
+    title: "MAR Quran App",
+    imageCover: "mar-quran.png",
+    techStack: ["Flutter"],
+    companyName: "Personal Project",
+    type: "mobile",
+    images: ["imageNotFound.png"],
+    webUrl:
+      "https://drive.google.com/file/d/1Dwc0zNCEe3rV5m9_r6JVX-LXHD48a1_F/view?usp=sharing",
+    githubRepo: "https://github.com/makbarramadhan62/mar-quran-app/",
+  },
+  {
     title: "Grapesense",
     imageCover: "grapesense.png",
     techStack: [
