@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import CardPortfolio from "@/components/CardPortfolio";
 import { portfolios } from "@/data/portfolios";
+import { motion, AnimatePresence } from "framer-motion";
 
 const PortfolioSection = () => {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -41,25 +42,45 @@ const PortfolioSection = () => {
           </div>
         ))}
       </div>
-      <div
-        className={`mt-10 grid grid-cols-1 sm:grid-cols-2 ${gridCols} gap-4`}
-      >
-        {filteredPortfolios.map((portfolio, index) => (
-          <div key={index} className="flex justify-center">
-            <CardPortfolio
-              title={portfolio.title}
-              techStack={portfolio.techStack}
-              imageUrl={portfolio.imageUrl}
-              companyName={portfolio.companyName}
-              companyLogo={portfolio.companyLogo}
-              type={portfolio.type}
-              images={portfolio.images}
-              githubRepo={portfolio.githubRepo}
-              webUrl={portfolio.webUrl}
-            />
-          </div>
-        ))}
-      </div>
+      <AnimatePresence mode="wait">
+        <motion.div
+          className={`mt-10 grid grid-cols-1 md:grid-cols-2 ${gridCols} gap-4`}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{
+            duration: 0.4,
+            ease: "easeOut",
+            staggerChildren: 0.1,
+          }}
+        >
+          {filteredPortfolios.map((portfolio, index) => (
+            <motion.div
+              key={portfolio.title}
+              className="flex justify-center"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 20 }}
+              transition={{
+                duration: 0.4,
+                ease: "easeOut",
+                delay: index * 0.1,
+              }}
+            >
+              <CardPortfolio
+                title={portfolio.title}
+                techStack={portfolio.techStack}
+                imageCover={portfolio.imageCover}
+                companyName={portfolio.companyName}
+                type={portfolio.type}
+                images={portfolio.images}
+                githubRepo={portfolio.githubRepo}
+                webUrl={portfolio.webUrl}
+              />
+            </motion.div>
+          ))}
+        </motion.div>
+      </AnimatePresence>
     </div>
   );
 };
