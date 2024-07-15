@@ -46,7 +46,7 @@ const PortfolioSection = () => {
         <motion.div
           key={activeFilter}
           className={`mt-10 grid grid-cols-1 md:grid-cols-2 ${
-            filteredPortfolios.length > 0 ? gridCols : ""
+            filteredPortfolios.length > 0 ? gridCols : "md:grid-cols-1"
           } gap-4`}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
