@@ -86,10 +86,10 @@ const CardPortfolio: React.FC<PortfolioCardTypes> = ({
                 rel="noopener noreferrer"
                 className="text-blue-600 dark:text-blue-500 hover:underline"
               >
-                GitHub Repo <FaExternalLinkAlt className="inline ml-1" />
+                GitHub <FaExternalLinkAlt className="inline ml-1" />
               </Link>
             ) : (
-              <span className="text-gray-400">GitHub Repo not available</span>
+              <span className="text-gray-400">GitHub not available</span>
             )}
 
             {type === "website" ? (
@@ -100,10 +100,10 @@ const CardPortfolio: React.FC<PortfolioCardTypes> = ({
                   rel="noopener noreferrer"
                   className="text-blue-600 dark:text-blue-500 hover:underline"
                 >
-                  Website URL <FaExternalLinkAlt className="inline ml-1" />
+                  Website <FaExternalLinkAlt className="inline ml-1" />
                 </Link>
               ) : (
-                <span className="text-gray-400">Website URL not available</span>
+                <span className="text-gray-400">Website not available</span>
               )
             ) : (
               <></>
@@ -117,12 +117,11 @@ const CardPortfolio: React.FC<PortfolioCardTypes> = ({
                   rel="noopener noreferrer"
                   className="text-blue-600 dark:text-blue-500 hover:underline"
                 >
-                  Download App <FaExternalLinkAlt className="inline ml-1" />
+                  Download
+                  <FaExternalLinkAlt className="inline ml-1" />
                 </Link>
               ) : (
-                <span className="text-gray-400">
-                  Download URL not available
-                </span>
+                <span className="text-gray-400">Download not available</span>
               )
             ) : (
               <></>
