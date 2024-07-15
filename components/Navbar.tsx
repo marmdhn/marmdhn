@@ -14,7 +14,6 @@ const Navbar = () => {
   const [activePath, setActivePath] = useState("");
   useEffect(() => {
     setActivePath(pathname);
-    console.log(pathname);
   }, [pathname]);
 
   return (
