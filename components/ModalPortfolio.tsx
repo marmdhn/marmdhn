@@ -4,6 +4,8 @@ import React, { Fragment, useEffect, useState } from "react";
 import { Transition } from "@headlessui/react";
 import Image from "next/image";
 import { PortfolioCardTypes } from "@/types/PortfolioCardTypes";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 interface PortfolioModalProps {
   portfolio: PortfolioCardTypes | null;
@@ -99,22 +101,24 @@ const ModalPortfolio: React.FC<PortfolioModalProps> = ({ portfolio }) => {
               <div className="relative px-6 pb-6 flex-auto">
                 {portfolio!.images.length !== 0 && (
                   <div className="relative">
-                    <Image
-                      unoptimized
-                      width={100}
-                      height={100}
-                      className="w-full h-96 object-cover rounded-lg object-center mb-4"
-                      src={`/images/portfolio/${
-                        portfolio!.images[selectedImageIndex] ??
-                        "imageNotFound.png"
-                      }`}
-                      alt={portfolio?.title as string}
-                    />
+                    <Zoom zoomMargin={40}>
+                      <Image
+                        unoptimized
+                        width={100}
+                        height={100}
+                        className="w-full h-96 object-cover rounded-lg object-center mb-4"
+                        src={`/images/portfolio/${
+                          portfolio!.images[selectedImageIndex] ??
+                          "imageNotFound.png"
+                        }`}
+                        alt={portfolio?.title as string}
+                      />
+                    </Zoom>
                     {portfolio!.images.length > 1 && (
                       <>
                         <div className="absolute inset-y-0 left-0 flex items-center">
                           <button
-                            className="text-white p-2 hover:bg-gray-700 rounded-lg transition-all duration-200"
+                            className="text-gray-800 hover:text-white p-2 hover:bg-gray-700 rounded-full w-10 h-10 transition-all duration-200"
                             onClick={prevImage}
                           >
                             {"<"}
@@ -122,7 +126,7 @@ const ModalPortfolio: React.FC<PortfolioModalProps> = ({ portfolio }) => {
                         </div>
                         <div className="absolute inset-y-0 right-0 flex items-center">
                           <button
-                            className="text-white p-2 hover:bg-gray-700 rounded-lg transition-all duration-200"
+                            className="text-gray-800 hover:text-white p-2 hover:bg-gray-700 rounded-full w-10 h-10 transition-all duration-200"
                             onClick={nextImage}
                           >
                             {">"}
