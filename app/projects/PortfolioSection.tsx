@@ -42,29 +42,27 @@ const PortfolioSection = () => {
           </div>
         ))}
       </div>
-      {filteredPortfolios.length === 0 ? (
+      <AnimatePresence mode="wait">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="mt-24 text-center text-gray-500 dark:text-gray-400"
+          key={activeFilter}
+          className={`mt-10 grid grid-cols-1 md:grid-cols-2 ${
+            filteredPortfolios.length > 0 ? gridCols : ""
+          } gap-4`}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{
+            duration: 0.25,
+            ease: "easeOut",
+            staggerChildren: filteredPortfolios.length > 0 ? 0.1 : 0,
+          }}
         >
-          Belum ada portfolio di kategori ini.
-        </motion.div>
-      ) : (
-        <AnimatePresence mode="wait">
-          <motion.div
-            className={`mt-10 grid grid-cols-1 md:grid-cols-2 ${gridCols} gap-4`}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{
-              duration: 0.4,
-              ease: "easeOut",
-              staggerChildren: 0.1,
-            }}
-          >
-            {filteredPortfolios.map((portfolio, index) => (
+          {filteredPortfolios.length === 0 ? (
+            <p className="mt-24 text-center text-gray-500 dark:text-gray-400 text-lg">
+              Belum ada portfolio di kategori ini.
+            </p>
+          ) : (
+            filteredPortfolios.map((portfolio, index) => (
               <motion.div
                 key={portfolio.title}
                 className="flex justify-center"
@@ -72,7 +70,7 @@ const PortfolioSection = () => {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: 20 }}
                 transition={{
-                  duration: 0.4,
+                  duration: 0.25,
                   ease: "easeOut",
                   delay: index * 0.1,
                 }}
@@ -88,10 +86,10 @@ const PortfolioSection = () => {
                   webUrl={portfolio.webUrl}
                 />
               </motion.div>
-            ))}
-          </motion.div>
-        </AnimatePresence>
-      )}
+            ))
+          )}
+        </motion.div>
+      </AnimatePresence>
     </div>
   );
 };
