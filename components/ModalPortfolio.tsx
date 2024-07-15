@@ -4,7 +4,6 @@ import React, { Fragment, useEffect, useState } from "react";
 import { Transition } from "@headlessui/react";
 import Image from "next/image";
 import { PortfolioCardTypes } from "@/types/PortfolioCardTypes";
-import { FaExternalLinkAlt } from "react-icons/fa";
 
 interface PortfolioModalProps {
   portfolio: PortfolioCardTypes | null;
@@ -104,29 +103,33 @@ const ModalPortfolio: React.FC<PortfolioModalProps> = ({ portfolio }) => {
                       unoptimized
                       width={100}
                       height={100}
-                      className="w-full h-96 object-contain rounded-lg object-center mb-4"
+                      className="w-full h-96 object-cover rounded-lg object-center mb-4"
                       src={`/images/portfolio/${
                         portfolio!.images[selectedImageIndex] ??
                         "imageNotFound.png"
                       }`}
                       alt={portfolio?.title as string}
                     />
-                    <div className="absolute inset-y-0 left-0 flex items-center">
-                      <button
-                        className="text-white p-2 hover:bg-gray-700 rounded-lg transition-all duration-200"
-                        onClick={prevImage}
-                      >
-                        {"<"}
-                      </button>
-                    </div>
-                    <div className="absolute inset-y-0 right-0 flex items-center">
-                      <button
-                        className="text-white p-2 hover:bg-gray-700 rounded-lg transition-all duration-200"
-                        onClick={nextImage}
-                      >
-                        {">"}
-                      </button>
-                    </div>
+                    {portfolio?.images.length > 1 && (
+                      <>
+                        <div className="absolute inset-y-0 left-0 flex items-center">
+                          <button
+                            className="text-white p-2 hover:bg-gray-700 rounded-lg transition-all duration-200"
+                            onClick={prevImage}
+                          >
+                            {"<"}
+                          </button>
+                        </div>
+                        <div className="absolute inset-y-0 right-0 flex items-center">
+                          <button
+                            className="text-white p-2 hover:bg-gray-700 rounded-lg transition-all duration-200"
+                            onClick={nextImage}
+                          >
+                            {">"}
+                          </button>
+                        </div>
+                      </>
+                    )}
                   </div>
                 )}
               </div>
