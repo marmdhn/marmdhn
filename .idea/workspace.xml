@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="style: move text color to text element" />
+    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: adjust logic next prev if images length &gt; 1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/CardPortfolio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CardPortfolio.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,38 +102,7 @@
       <workItem from="1720758965749" duration="27620000" />
       <workItem from="1720836660633" duration="25713000" />
       <workItem from="1720926012472" duration="2482000" />
-    </task>
-    <task id="LOCAL-00070" summary="refactor: add client side layout">
-      <option name="closed" value="true" />
-      <created>1720883374736</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1720883374736</updated>
-    </task>
-    <task id="LOCAL-00071" summary="refactor: remove description">
-      <option name="closed" value="true" />
-      <created>1720883487031</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1720883487031</updated>
-    </task>
-    <task id="LOCAL-00072" summary="feat: add navbar mobile">
-      <option name="closed" value="true" />
-      <created>1720883791104</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1720883791104</updated>
-    </task>
-    <task id="LOCAL-00073" summary="refactor: move navbar mobile to another component">
-      <option name="closed" value="true" />
-      <created>1720883801718</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1720883801718</updated>
+      <workItem from="1721007065770" duration="2789000" />
     </task>
     <task id="LOCAL-00074" summary="refactor: remove head tag">
       <option name="closed" value="true" />
@@ -492,7 +464,39 @@
       <option name="project" value="LOCAL" />
       <updated>1720964850297</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="refactor: change filename">
+      <option name="closed" value="true" />
+      <created>1721009580915</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1721009580915</updated>
+    </task>
+    <task id="LOCAL-00120" summary="refactor: adjust data">
+      <option name="closed" value="true" />
+      <created>1721009588714</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1721009588714</updated>
+    </task>
+    <task id="LOCAL-00121" summary="refactor: remove console log">
+      <option name="closed" value="true" />
+      <created>1721009596460</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1721009596460</updated>
+    </task>
+    <task id="LOCAL-00122" summary="refactor: adjust logic next prev if images length &gt; 1">
+      <option name="closed" value="true" />
+      <created>1721009619063</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1721009619063</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,10 +504,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor: adjust nullable props" />
-    <MESSAGE value="refactor: add color primary dark" />
-    <MESSAGE value="feat: add about me section" />
-    <MESSAGE value="refactor: implement about me section" />
     <MESSAGE value="refactor: adjust props" />
     <MESSAGE value="feat: add frame motion" />
     <MESSAGE value="refactor: add gradient animation" />
@@ -525,6 +525,10 @@
     <MESSAGE value="style: add bg opacity" />
     <MESSAGE value="refactor: idea" />
     <MESSAGE value="style: move text color to text element" />
-    <option name="LAST_COMMIT_MESSAGE" value="style: move text color to text element" />
+    <MESSAGE value="refactor: change filename" />
+    <MESSAGE value="refactor: adjust data" />
+    <MESSAGE value="refactor: remove console log" />
+    <MESSAGE value="refactor: adjust logic next prev if images length &gt; 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: adjust logic next prev if images length &gt; 1" />
   </component>
 </project>
