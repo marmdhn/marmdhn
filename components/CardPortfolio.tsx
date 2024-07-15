@@ -84,7 +84,7 @@ const CardPortfolio: React.FC<PortfolioCardTypes> = ({
                 href={githubRepo}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
+                className="text-blue-600 dark:text-blue-500 hover:underline"
               >
                 GitHub Repo <FaExternalLinkAlt className="inline ml-1" />
               </Link>
@@ -92,17 +92,40 @@ const CardPortfolio: React.FC<PortfolioCardTypes> = ({
               <span className="text-gray-400">GitHub Repo not available</span>
             )}
 
-            {webUrl ? (
-              <Link
-                href={webUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
-              >
-                Website URL <FaExternalLinkAlt className="inline ml-1" />
-              </Link>
+            {type === "website" ? (
+              webUrl ? (
+                <Link
+                  href={webUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 dark:text-blue-500 hover:underline"
+                >
+                  Website URL <FaExternalLinkAlt className="inline ml-1" />
+                </Link>
+              ) : (
+                <span className="text-gray-400">Website URL not available</span>
+              )
             ) : (
-              <span className="text-gray-400">Website URL not available</span>
+              <></>
+            )}
+
+            {type === "mobile" ? (
+              webUrl ? (
+                <Link
+                  href={webUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 dark:text-blue-500 hover:underline"
+                >
+                  Download App <FaExternalLinkAlt className="inline ml-1" />
+                </Link>
+              ) : (
+                <span className="text-gray-400">
+                  Download URL not available
+                </span>
+              )
+            ) : (
+              <></>
             )}
           </div>
 

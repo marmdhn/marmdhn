@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: adjust possibly undefined condition" />
+    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: adjust possibly undefined condition">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,6 +102,7 @@
       <workItem from="1720836660633" duration="25713000" />
       <workItem from="1720926012472" duration="2482000" />
       <workItem from="1721007065770" duration="2789000" />
+      <workItem from="1721044003198" duration="24000" />
     </task>
     <task id="LOCAL-00074" summary="refactor: remove head tag">
       <option name="closed" value="true" />
