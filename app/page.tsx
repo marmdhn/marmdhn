@@ -13,7 +13,11 @@ import {
 } from "react-icons/fa6";
 import Link from "next/link";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiNuxtdotjs } from "react-icons/si";
+import {
+  SiAdobeaftereffects,
+  SiAdobepremierepro,
+  SiNuxtdotjs,
+} from "react-icons/si";
 import { RiFlutterFill, RiTailwindCssFill } from "react-icons/ri";
 import MusicPlayer from "@/components/MusicPlayer";
 import AnimatedTypingText from "@/components/AnimatedTypingText";
@@ -190,7 +194,7 @@ export default function Home() {
             variants={item}
             className="col-span-2 md:col-span-3 lg:col-span-4 bg-gray-300/50 dark:bg-gray-800/50 backdrop-blur-2xl transition-all duration-200 shadow-xl dark:shadow-none p-4 rounded-lg grid grid-cols-1 md:grid-cols-3 gap-4 text-gray-800 dark:text-white"
           >
-            <div className="flex justify-start items-center space-x-2">
+            <div className="flex justify-center md:justify-start items-center space-x-2">
               <Link href="https://www.instagram.com/marmdhn_/" target="_blank">
                 <FaInstagram
                   size={36}
@@ -210,10 +214,10 @@ export default function Home() {
                 />
               </Link>
             </div>
-            <div className="col-span-1 md:col-span-1 flex items-center justify-center">
+            <div className="transition-all duration-200 ease-in-out md:opacity-0 xl:opacity-100 col-span-1 md:col-span-1 flex items-center justify-center">
               <span className="text-sm text-center">©marmdhn2024</span>
             </div>
-            <div className="flex justify-end items-center space-x-2 gap-2 col-span-1 md:col-span-1">
+            <div className="flex justify-center md:justify-end items-center space-x-2 gap-2 col-span-1 md:col-span-1">
               <div className="relative group">
                 <Link href="https://nextjs.org/" target="_blank">
                   <TbBrandNextjs
@@ -283,6 +287,36 @@ export default function Home() {
                 </Link>
                 <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-max bg-gray-800 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   Python
+                </div>
+              </div>
+
+              <div className="relative group">
+                <Link
+                  href="https://www.adobe.com/id_id/products/premiere.html"
+                  target="_blank"
+                >
+                  <SiAdobepremierepro
+                    size={36}
+                    className="transition-all duration-200 hover:text-gray-400 hover:cursor-pointer text-gray-800 dark:text-white dark:hover:text-gray-400"
+                  />
+                </Link>
+                <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-max bg-gray-800 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  Adobe Premiere Pro
+                </div>
+              </div>
+
+              <div className="relative group">
+                <Link
+                  href="https://www.adobe.com/id_id/products/aftereffects.html"
+                  target="_blank"
+                >
+                  <SiAdobeaftereffects
+                    size={36}
+                    className="transition-all duration-200 hover:text-gray-400 hover:cursor-pointer text-gray-800 dark:text-white dark:hover:text-gray-400"
+                  />
+                </Link>
+                <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-max bg-gray-800 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  Adobe After Effects
                 </div>
               </div>
             </div>
