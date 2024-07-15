@@ -79,7 +79,12 @@ export const portfolios: PortfolioCardTypes[] = [
     ],
     companyName: "Final Project",
     type: "mobile",
-    images: ["imageNotFound.png"],
+    images: [
+      "/grapesense/grapesense-1.png",
+      "/grapesense/grapesense-2.png",
+      "/grapesense/grapesense-3.png",
+      "/grapesense/grapesense-4.png",
+    ],
     githubRepo: "https://github.com/makbarramadhan62/skripsi-grapesense",
   },
   {
@@ -88,7 +93,11 @@ export const portfolios: PortfolioCardTypes[] = [
     techStack: ["Flutter", "Laravel", "phpMyAdmin", "MySQL"],
     companyName: "PT Otak Kanan",
     type: "mobile",
-    images: ["imageNotFound.png"],
+    images: [
+      "/ok-docs/ok-docs-1.png",
+      "/ok-docs/ok-docs-2.png",
+      "/ok-docs/ok-docs-3.png",
+    ],
     githubRepo: "https://github.com/makbarramadhan62/ok-docs-managemant-apps",
   },
 ];
