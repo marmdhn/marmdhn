@@ -35,6 +35,6 @@ const config = {
       textColor: ["dark"],
     },
   },
-  plugins: [require("tailwind-hamburgers")],
+  plugins: [require("tailwind-hamburgers"), require("tailwind-scrollbar")],
 };
 export default config;
