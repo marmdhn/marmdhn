@@ -110,7 +110,7 @@ const ModalPortfolio: React.FC<PortfolioModalProps> = ({ portfolio }) => {
                       }`}
                       alt={portfolio?.title as string}
                     />
-                    {portfolio?.images.length > 1 && (
+                    {portfolio!.images.length > 1 && (
                       <>
                         <div className="absolute inset-y-0 left-0 flex items-center">
                           <button
