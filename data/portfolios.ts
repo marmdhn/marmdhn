@@ -7,7 +7,7 @@ export const portfolios: PortfolioCardTypes[] = [
     techStack: ["ReactJs", "TypeScript", "Tailwindcss", "Daisy UI"],
     companyName: "Baitul Adab Islamic School",
     type: "website",
-    images: ["imageNotFound.png"],
+    images: ["/baitul-adab/baitul-adab-1.png"],
     githubRepo: "https://github.com/makbarramadhan62/baitul-adab-react",
     webUrl: "https://baitul-adab.vercel.app/",
   },
@@ -17,7 +17,7 @@ export const portfolios: PortfolioCardTypes[] = [
     techStack: ["NextJs", "TypeScript", "Bootstrap", "CSS"],
     companyName: "Yayasan Pendidikan Telkom",
     type: "website",
-    images: ["imageNotFound.png"],
+    images: ["/ppdb-telkomschools/ppdb-telkomschools-1.png"],
     webUrl: "https://ppdb.telkomschools.sch.id/",
   },
   {
@@ -26,7 +26,7 @@ export const portfolios: PortfolioCardTypes[] = [
     techStack: ["HTML", "CSS", "Javascript", "Bootstrap"],
     companyName: "Yayasan Pendidikan Telkom",
     type: "website",
-    images: ["imageNotFound.png"],
+    images: ["/halo-ypt/halo-ypt-1.png"],
     webUrl: "https://makbarramadhan62.github.io/haloYPT/",
     githubRepo: "https://github.com/makbarramadhan62/haloYPT",
   },
@@ -36,7 +36,10 @@ export const portfolios: PortfolioCardTypes[] = [
     techStack: ["NuxtJs", "TypeScript", "Tailwindcss"],
     companyName: "PT. Akhdani Reka Solusi",
     type: "website",
-    images: ["imageNotFound.png"],
+    images: [
+      "/dashboard-monitoring-server/dashboard-monitoring-server-1.png",
+      "/dashboard-monitoring-server/dashboard-monitoring-server-2.png",
+    ],
   },
   {
     title: "Online Compiler",
@@ -44,7 +47,7 @@ export const portfolios: PortfolioCardTypes[] = [
     techStack: ["Laravel", "Bootstrap", "SplitJs", "Ace Editor"],
     companyName: "PT. Akhdani Reka Solusi",
     type: "website",
-    images: ["imageNotFound.png"],
+    images: ["/online-compiler/online-compiler-1.png"],
     githubRepo: "https://github.com/makbarramadhan62/online-compiler",
   },
   {
@@ -53,7 +56,7 @@ export const portfolios: PortfolioCardTypes[] = [
     techStack: [".NET", "Blazor", "Bootstrap", "SQL Server"],
     companyName: "PT. Akhdani Reka Solusi",
     type: "website",
-    images: ["imageNotFound.png"],
+    images: ["/atm-bank/atm-bank-1.png"],
     githubRepo: "https://github.com/makbarramadhan62/ATM-Bank-Case",
   },
   {
@@ -62,7 +65,11 @@ export const portfolios: PortfolioCardTypes[] = [
     techStack: ["Flutter"],
     companyName: "Personal Project",
     type: "mobile",
-    images: ["imageNotFound.png"],
+    images: [
+      "/mar-quran/mar-quran-1.png",
+      "/mar-quran/mar-quran-2.png",
+      "/mar-quran/mar-quran-3.png",
+    ],
     webUrl:
       "https://drive.google.com/file/d/1Dwc0zNCEe3rV5m9_r6JVX-LXHD48a1_F/view?usp=sharing",
     githubRepo: "https://github.com/makbarramadhan62/mar-quran-app/",
@@ -99,5 +106,41 @@ export const portfolios: PortfolioCardTypes[] = [
       "/ok-docs/ok-docs-3.png",
     ],
     githubRepo: "https://github.com/makbarramadhan62/ok-docs-managemant-apps",
+  },
+  {
+    title: "MARental",
+    imageCover: "MARental.png",
+    techStack: ["Figma"],
+    companyName: "Personal Project",
+    type: "ui/ux",
+    images: [
+      "/MARental/MARental-1.png",
+      "/MARental/MARental-2.png",
+      "/MARental/MARental-3.png",
+    ],
+  },
+  {
+    title: "MAR Anime List",
+    imageCover: "mar-anime-list.png",
+    techStack: ["Figma"],
+    companyName: "Personal Project",
+    type: "ui/ux",
+    images: [
+      "/mar-anime-list/mar-anime-list-1.png",
+      "/mar-anime-list/mar-anime-list-2.png",
+      "/mar-anime-list/mar-anime-list-3.png",
+    ],
+  },
+  {
+    title: "User Management",
+    imageCover: "user-management.png",
+    techStack: ["Figma"],
+    companyName: "Personal Project",
+    type: "ui/ux",
+    images: [
+      "/user-management/user-management-1.png",
+      "/user-management/user-management-2.png",
+      "/user-management/user-management-3.png",
+    ],
   },
 ];
