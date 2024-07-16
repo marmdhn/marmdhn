@@ -72,16 +72,12 @@ export default function Home() {
           </div>
           <Link href="/projects">
             <div className="flex justify-center bg-gray-300/50 dark:bg-gray-800/50 w-auto rounded-xl p-4 transition-all duration-200 hover:scale-110 hover:cursor-pointer">
-              <p className="font-semibold text-gray-800 dark:text-gray-200">
-                Projects
-              </p>
+              <p className="text-gray-800 dark:text-gray-200">Projects</p>
             </div>
           </Link>
           <Link href="/about">
             <div className="flex justify-center bg-gray-300/50 dark:bg-gray-800/50 w-auto rounded-xl p-4 transition-all duration-200 hover:scale-110 hover:cursor-pointer">
-              <p className="font-semibold text-gray-800 dark:text-gray-200">
-                About
-              </p>
+              <p className="text-gray-800 dark:text-gray-200">About</p>
             </div>
           </Link>
         </div>
