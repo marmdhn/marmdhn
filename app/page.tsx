@@ -59,9 +59,31 @@ export default function Home() {
         transition={{ duration: 0.5 }}
         className="z-50 w-full max-w-7xl items-center justify-between font-mono text-sm lg:flex"
       >
-        <div className="fixed font-bold left-0 top-0 flex gap-4 w-full justify-center pb-6 pt-8 backdrop-blur-2xl dark:bg-transparent lg:dark:bg-gray-800/50 lg:static lg:w-auto lg:rounded-xl lg:bg-gray-300/50 lg:p-4 transition-all duration-200">
-          <p className="text-gray-800 dark:text-gray-200">My Portfolio</p>
+        <div className="lg:hidden fixed font-bold left-0 top-0 flex gap-4 w-full justify-center pb-6 pt-8 backdrop-blur-2xl dark:bg-transparent lg:dark:bg-gray-800/50 lg:static lg:w-auto lg:rounded-xl lg:bg-gray-300/50 lg:p-4 transition-all duration-200">
+          <p className="text-gray-800 dark:text-gray-200">Home</p>
           <ToggleDarkMode />
+        </div>
+        <div className="flex gap-4">
+          <div className="flex gap-2 justify-center bg-gray-300/50 dark:bg-gray-800/50 w-auto rounded-xl p-4 transition-all duration-200">
+            <ToggleDarkMode />
+          </div>
+          <div className="flex gap-2 justify-center bg-gray-300/50 dark:bg-gray-800/50 w-auto rounded-xl p-4 transition-all duration-200">
+            <p className="font-bold text-primary">Home</p>
+          </div>
+          <Link href="/projects">
+            <div className="flex justify-center bg-gray-300/50 dark:bg-gray-800/50 w-auto rounded-xl p-4 transition-all duration-200 hover:scale-110 hover:cursor-pointer">
+              <p className="font-semibold text-gray-800 dark:text-gray-200">
+                Projects
+              </p>
+            </div>
+          </Link>
+          <Link href="/about">
+            <div className="flex justify-center bg-gray-300/50 dark:bg-gray-800/50 w-auto rounded-xl p-4 transition-all duration-200 hover:scale-110 hover:cursor-pointer">
+              <p className="font-semibold text-gray-800 dark:text-gray-200">
+                About
+              </p>
+            </div>
+          </Link>
         </div>
         <div className="fixed bottom-0 left-0 flex h-24 sm:h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
           <div className="pointer-events-none flex place-items-center gap-2 p-4 sm:p-8 lg:pointer-events-auto lg:p-0 text-gray-800 dark:text-white">
@@ -128,8 +150,10 @@ export default function Home() {
                 </p>
               </div>
               <Link href="/projects">
-                <div className="flex justify-end items-center gap-2 transition-all duration-200 hover:text-gray-400 font-semibold dark:text-white dark:hover:text-gray-400">
-                  Preview <FaArrowRight />
+                <div className="flex justify-end items-center gap-2 transition-all duration-200 font-semibold text-white">
+                  <button className="bg-gray-400/75 dark:bg-gray-500 hover:bg-gray-500 dark:hover:bg-gray-400 transition-all duration-200 w-1/2 flex items-center justify-center gap-4 py-2 px-1 rounded-lg">
+                    Preview <FaArrowRight />
+                  </button>
                 </div>
               </Link>
             </div>
