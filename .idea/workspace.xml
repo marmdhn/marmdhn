@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: add skills">
-      <change afterPath="$PROJECT_DIR$/public/images/portfolio/atm-bank/atm-bank-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/portfolio/atm-bank/atm-bank-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/portfolio/atm-bank/atm-bank-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/portfolio/baitul-adab/baitul-adab-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/portfolio/dashboard-monitoring-server/dashboard-monitoring-server-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/portfolio/dashboard-monitoring-server/dashboard-monitoring-server-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/portfolio/halo-ypt/halo-ypt-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/portfolio/mar-quran/mar-quran-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/portfolio/mar-quran/mar-quran-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/portfolio/mar-quran/mar-quran-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/portfolio/online-compiler/online-compiler-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/portfolio/ppdb-telkomschools/ppdb-telkomschools-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/grapesense/grapesense-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/portfolio/grapesense/grapesense-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/grapesense/grapesense-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/portfolio/grapesense/grapesense-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/grapesense/grapesense-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/portfolio/grapesense/grapesense-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/ok-docs/ok-docs-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/portfolio/ok-docs/ok-docs-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/ok-docs/ok-docs-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/portfolio/ok-docs/ok-docs-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/ok-docs/ok-docs-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/portfolio/ok-docs/ok-docs-3.png" afterDir="false" />
-    </list>
+    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="style: adjust font weight" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +38,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Personal Project/Coding/Nextjs/marmdhn&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Work/YPT/Telkom Schools/ppdb&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -123,47 +102,7 @@
       <workItem from="1721007065770" duration="2789000" />
       <workItem from="1721044003198" duration="24000" />
       <workItem from="1721044046980" duration="6479000" />
-      <workItem from="1721097112094" duration="4010000" />
-    </task>
-    <task id="LOCAL-00089" summary="refactor: add color primary dark">
-      <option name="closed" value="true" />
-      <created>1720937131232</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1720937131232</updated>
-    </task>
-    <task id="LOCAL-00090" summary="feat: add about me section">
-      <option name="closed" value="true" />
-      <created>1720937139494</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1720937139494</updated>
-    </task>
-    <task id="LOCAL-00091" summary="refactor: implement about me section">
-      <option name="closed" value="true" />
-      <created>1720937152253</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1720937152253</updated>
-    </task>
-    <task id="LOCAL-00092" summary="refactor: idea">
-      <option name="closed" value="true" />
-      <created>1720937155863</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1720937155863</updated>
-    </task>
-    <task id="LOCAL-00093" summary="refactor: adjust props">
-      <option name="closed" value="true" />
-      <created>1720939118164</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1720939118164</updated>
+      <workItem from="1721097112094" duration="9863000" />
     </task>
     <task id="LOCAL-00094" summary="feat: add frame motion">
       <option name="closed" value="true" />
@@ -517,7 +456,47 @@
       <option name="project" value="LOCAL" />
       <updated>1721052246549</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="feat: add images">
+      <option name="closed" value="true" />
+      <created>1721116371575</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1721116371575</updated>
+    </task>
+    <task id="LOCAL-00139" summary="refactor: add data">
+      <option name="closed" value="true" />
+      <created>1721116379555</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1721116379555</updated>
+    </task>
+    <task id="LOCAL-00140" summary="refactor: adjust logic for type ui ux">
+      <option name="closed" value="true" />
+      <created>1721116392517</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1721116392517</updated>
+    </task>
+    <task id="LOCAL-00141" summary="refactor: adjust UI">
+      <option name="closed" value="true" />
+      <created>1721116401616</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1721116401616</updated>
+    </task>
+    <task id="LOCAL-00142" summary="style: adjust font weight">
+      <option name="closed" value="true" />
+      <created>1721120658208</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1721120658208</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,9 +504,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor: add motion animation" />
-    <MESSAGE value="feat: add client section" />
-    <MESSAGE value="refactor: adjust filename &amp; active condition" />
     <MESSAGE value="refactor: implement client section" />
     <MESSAGE value="refactor: compress file size" />
     <MESSAGE value="refactor: implement framer motion" />
@@ -545,11 +521,14 @@
     <MESSAGE value="style: adjust grid cols" />
     <MESSAGE value="refactor: add plugins tailwind scrollbar" />
     <MESSAGE value="refactor: add tailwind scrollbar" />
-    <MESSAGE value="feat: add images" />
-    <MESSAGE value="refactor: add data" />
     <MESSAGE value="refactor: implement zoom image" />
     <MESSAGE value="style: add style for custom scrollbar" />
     <MESSAGE value="refactor: add skills" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: add skills" />
+    <MESSAGE value="feat: add images" />
+    <MESSAGE value="refactor: add data" />
+    <MESSAGE value="refactor: adjust logic for type ui ux" />
+    <MESSAGE value="refactor: adjust UI" />
+    <MESSAGE value="style: adjust font weight" />
+    <option name="LAST_COMMIT_MESSAGE" value="style: adjust font weight" />
   </component>
 </project>

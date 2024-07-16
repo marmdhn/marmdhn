@@ -212,7 +212,7 @@ export default function Home() {
 
           <motion.div
             variants={item}
-            className="col-span-2 md:col-span-3 lg:col-span-4 bg-gray-300/50 dark:bg-gray-800/50 backdrop-blur-2xl transition-all duration-200 shadow-xl dark:shadow-none p-4 rounded-lg grid grid-cols-1 md:grid-cols-3 gap-4 text-gray-800 dark:text-white"
+            className="col-span-2 md:col-span-3 lg:col-span-4 bg-gray-300/50 dark:bg-gray-800/50 backdrop-blur-2xl transition-all duration-200 shadow-xl dark:shadow-none p-4 rounded-lg grid grid-cols-1 md:grid-cols-3 gap-4"
           >
             <div className="flex justify-center md:justify-start items-center space-x-2">
               <Link href="https://www.instagram.com/marmdhn_/" target="_blank">
@@ -234,8 +234,10 @@ export default function Home() {
                 />
               </Link>
             </div>
-            <div className="transition-all duration-200 ease-in-out md:opacity-0 xl:opacity-100 col-span-1 md:col-span-1 flex items-center justify-center">
-              <span className="text-sm text-center">©marmdhn2024</span>
+            <div className="md:opacity-0 xl:opacity-100 col-span-1 md:col-span-1 flex items-center justify-center">
+              <span className="font-semibold text-sm text-center text-gray-800 dark:text-white">
+                ©marmdhn2024
+              </span>
             </div>
             <div className="flex justify-center md:justify-end items-center space-x-2 gap-2 col-span-1 md:col-span-1">
               <div className="relative group">
