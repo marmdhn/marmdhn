@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="style: adjust font weight" />
+    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="style: adjust text color" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,14 +103,7 @@
       <workItem from="1721044003198" duration="24000" />
       <workItem from="1721044046980" duration="6479000" />
       <workItem from="1721097112094" duration="9863000" />
-    </task>
-    <task id="LOCAL-00094" summary="feat: add frame motion">
-      <option name="closed" value="true" />
-      <created>1720952320902</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1720952320902</updated>
+      <workItem from="1721126404661" duration="243000" />
     </task>
     <task id="LOCAL-00095" summary="refactor: add gradient animation">
       <option name="closed" value="true" />
@@ -496,7 +489,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721120658208</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="style: adjust text color">
+      <option name="closed" value="true" />
+      <created>1721126637128</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1721126637128</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +505,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor: implement client section" />
     <MESSAGE value="refactor: compress file size" />
     <MESSAGE value="refactor: implement framer motion" />
     <MESSAGE value="refactor: adjust framer motion" />
@@ -529,6 +529,7 @@
     <MESSAGE value="refactor: adjust logic for type ui ux" />
     <MESSAGE value="refactor: adjust UI" />
     <MESSAGE value="style: adjust font weight" />
-    <option name="LAST_COMMIT_MESSAGE" value="style: adjust font weight" />
+    <MESSAGE value="style: adjust text color" />
+    <option name="LAST_COMMIT_MESSAGE" value="style: adjust text color" />
   </component>
 </project>

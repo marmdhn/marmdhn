@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^2.1.2",
+    "@vercel/speed-insights": "^1.0.12",
     "animejs": "^3.2.2",
     "classnames": "^2.5.1",
     "framer-motion": "^11.3.2",
