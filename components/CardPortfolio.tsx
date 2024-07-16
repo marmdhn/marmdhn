@@ -79,35 +79,20 @@ const CardPortfolio: React.FC<PortfolioCardTypes> = ({
 
         <div className="mt-auto">
           <div className="flex justify-start items-center gap-4 mb-4">
-            {githubRepo ? (
-              <Link
-                href={githubRepo}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 dark:text-blue-500 hover:underline"
-              >
-                GitHub <FaExternalLinkAlt className="inline ml-1" />
-              </Link>
-            ) : (
-              <span className="text-gray-400">GitHub not available</span>
-            )}
-
-            {type === "website" ? (
-              webUrl ? (
+            {type === "website" || type === "mobile" ? (
+              githubRepo ? (
                 <Link
-                  href={webUrl}
+                  href={githubRepo}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 dark:text-blue-500 hover:underline"
                 >
-                  Website <FaExternalLinkAlt className="inline ml-1" />
+                  GitHub <FaExternalLinkAlt className="inline ml-1" />
                 </Link>
               ) : (
-                <span className="text-gray-400">Website not available</span>
+                <span className="text-gray-400">GitHub not available</span>
               )
-            ) : (
-              <></>
-            )}
+            ) : null}
 
             {type === "mobile" ? (
               webUrl ? (
