@@ -157,7 +157,7 @@ const AboutMeSection = () => {
           <div className="mt-6 flex justify-center md:justify-start items-center space-x-4">
             <ModalPreviewCV />
             <Link
-              href="https://github.com/makbarramadhan62"
+              href="https://github.com/marmdhn"
               className="bg-gray-800 text-white px-4 py-2 rounded-full shadow-lg transition-all duration-200 hover:bg-gray-700 flex items-center"
             >
               GitHub <FaGithub className="ml-2" size={24} />

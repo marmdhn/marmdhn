@@ -227,7 +227,7 @@ export default function Home() {
                   className="transition-all duration-200 hover:text-gray-400 hover:cursor-pointer text-gray-800 dark:text-white dark:hover:text-gray-400"
                 />
               </Link>
-              <Link href="https://github.com/makbarramadhan62" target="_blank">
+              <Link href="https://github.com/marmdhn" target="_blank">
                 <FaGithub
                   size={36}
                   className="transition-all duration-200 hover:text-gray-400 hover:cursor-pointer text-gray-800 dark:text-white dark:hover:text-gray-400"

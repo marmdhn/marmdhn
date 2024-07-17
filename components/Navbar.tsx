@@ -86,7 +86,7 @@ const Navbar = () => {
             <div className="col-span-1 ms-auto hidden sm:block">
               <div className="flex gap-4">
                 <Link
-                  href="https://github.com/makbarramadhan62?tab=repositories"
+                  href="https://github.com/marmdhn?tab=repositories"
                   target="_blank"
                 >
                   <FaGithub

@@ -32,7 +32,7 @@ const Footer = () => {
             </Link>
 
             <Link
-              href="https://github.com/makbarramadhan62"
+              href="https://github.com/marmdhn"
               target="_blank"
               className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-secondary text-gray-800 dark:text-white hover:border-primary hover:bg-primary hover:text-white"
             >

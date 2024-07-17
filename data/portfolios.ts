@@ -8,7 +8,7 @@ export const portfolios: PortfolioCardTypes[] = [
     companyName: "Baitul Adab Islamic School",
     type: "website",
     images: ["/baitul-adab/baitul-adab-1.png"],
-    githubRepo: "https://github.com/makbarramadhan62/baitul-adab-react",
+    githubRepo: "https://github.com/marmdhn/baitul-adab-react",
     webUrl: "https://baitul-adab.vercel.app/",
   },
   {
@@ -27,8 +27,8 @@ export const portfolios: PortfolioCardTypes[] = [
     companyName: "Yayasan Pendidikan Telkom",
     type: "website",
     images: ["/halo-ypt/halo-ypt-1.png"],
-    webUrl: "https://makbarramadhan62.github.io/haloYPT/",
-    githubRepo: "https://github.com/makbarramadhan62/haloYPT",
+    webUrl: "https://marmdhn.github.io/haloYPT/",
+    githubRepo: "https://github.com/marmdhn/haloYPT",
   },
   {
     title: "Dashboard Monitoring Server",
@@ -48,7 +48,7 @@ export const portfolios: PortfolioCardTypes[] = [
     companyName: "PT. Akhdani Reka Solusi",
     type: "website",
     images: ["/online-compiler/online-compiler-1.png"],
-    githubRepo: "https://github.com/makbarramadhan62/online-compiler",
+    githubRepo: "https://github.com/marmdhn/online-compiler",
   },
   {
     title: "ATM Bank",
@@ -57,7 +57,7 @@ export const portfolios: PortfolioCardTypes[] = [
     companyName: "PT. Akhdani Reka Solusi",
     type: "website",
     images: ["/atm-bank/atm-bank-1.png"],
-    githubRepo: "https://github.com/makbarramadhan62/ATM-Bank-Case",
+    githubRepo: "https://github.com/marmdhn/ATM-Bank-Case",
   },
   {
     title: "MAR Quran App",
@@ -72,7 +72,7 @@ export const portfolios: PortfolioCardTypes[] = [
     ],
     webUrl:
       "https://drive.google.com/file/d/1Dwc0zNCEe3rV5m9_r6JVX-LXHD48a1_F/view?usp=sharing",
-    githubRepo: "https://github.com/makbarramadhan62/mar-quran-app/",
+    githubRepo: "https://github.com/marmdhn/mar-quran-app/",
   },
   {
     title: "Grapesense",
@@ -92,7 +92,7 @@ export const portfolios: PortfolioCardTypes[] = [
       "/grapesense/grapesense-3.png",
       "/grapesense/grapesense-4.png",
     ],
-    githubRepo: "https://github.com/makbarramadhan62/skripsi-grapesense",
+    githubRepo: "https://github.com/marmdhn/skripsi-grapesense",
   },
   {
     title: "OK Docs",
@@ -105,7 +105,7 @@ export const portfolios: PortfolioCardTypes[] = [
       "/ok-docs/ok-docs-2.png",
       "/ok-docs/ok-docs-3.png",
     ],
-    githubRepo: "https://github.com/makbarramadhan62/ok-docs-managemant-apps",
+    githubRepo: "https://github.com/marmdhn/ok-docs-managemant-apps",
   },
   {
     title: "MARental",
