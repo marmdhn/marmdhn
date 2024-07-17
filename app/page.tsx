@@ -147,7 +147,7 @@ export default function Home() {
               </div>
               <Link href="/projects">
                 <div className="flex justify-end items-center gap-2 transition-all duration-200 font-semibold text-white">
-                  <button className="bg-gray-400/75 dark:bg-gray-500 hover:bg-gray-500 dark:hover:bg-gray-400 transition-all duration-200 w-auto flex items-center justify-center gap-4 py-2 px-1 rounded-lg">
+                  <button className="bg-gray-400/75 dark:bg-gray-500 hover:bg-gray-500 dark:hover:bg-gray-400 transition-all duration-200 w-auto flex items-center justify-center gap-4 py-2 px-4 rounded-lg">
                     Preview <FaArrowRight />
                   </button>
                 </div>
