@@ -34,7 +34,7 @@ const CardPortfolio: React.FC<PortfolioCardTypes> = ({
       <div
         className={`relative flex items-center justify-center transition-all duration-200 ${
           isLoading
-            ? "bg-gray-300 animate-pulse dark:bg-gray-700 h-56 w-full"
+            ? "bg-gray-500 animate-pulse dark:bg-gray-700 h-56 w-full"
             : ""
         }`}
       >
