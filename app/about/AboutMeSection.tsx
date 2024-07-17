@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import Link from "next/link";
@@ -8,22 +10,37 @@ import {
   SiNuxtdotjs,
 } from "react-icons/si";
 import { RiFlutterFill, RiTailwindCssFill } from "react-icons/ri";
-import { FaPython } from "react-icons/fa6";
+import { FaImage, FaPython } from "react-icons/fa6";
 import { PiFigmaLogoFill } from "react-icons/pi";
 import ModalPreviewCV from "@/components/ModalPreviewCV";
+import React, { useState } from "react";
 
 const AboutMeSection = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
   return (
     <section className="text-center p-8 transition-all duration-200">
       <div className="flex flex-col md:flex-row justify-center items-center gap-16">
-        <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-blue-400">
+        <div
+          className={`w-64 h-64 rounded-full overflow-hidden border-4 border-blue-400 ${
+            isLoading
+              ? "w-64 h-64 rounded-full bg-gray-500 animate-pulse dark:bg-gray-700 flex justify-center items-center"
+              : ""
+          }`}
+        >
+          {isLoading && (
+            <FaImage className="absolute w-10 h-10 text-gray-200 dark:text-gray-600 transition-all duration-200" />
+          )}
           <Image
             src="/profile.png"
             alt="Muhammad Akbar Ramadhan"
             width={100}
             height={100}
             unoptimized
-            className="object-cover w-full h-full"
+            onLoad={() => setTimeout(() => setIsLoading(false), 500)}
+            className={`object-cover w-full h-full transition-opacity duration-500 ${
+              isLoading ? "opacity-0" : "opacity-100"
+            }`}
           />
         </div>
         <div className="flex flex-col gap-3 justify-center md:justify-start text-center md:text-start">
