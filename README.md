@@ -15,7 +15,7 @@
 
 - 📫 How to reach me **makbarramadhan62@gmail.com**
 
-- 📄 Know about my experiences [https://www.marmdhn.com/documents/CV.pdf](https://www.marmdhn.com/documents/CV.pdf)
+- 📄 Know about my experiences [marmdhn.com/documents/CV.pdf](https://www.marmdhn.com/documents/CV.pdf)
 
 - ⚡ Fun fact **Japan Enthusiast**
 
