@@ -147,7 +147,7 @@ export default function Home() {
               </div>
               <Link href="/projects">
                 <div className="flex justify-end items-center gap-2 transition-all duration-200 font-semibold text-white">
-                  <button className="bg-gray-400/75 dark:bg-gray-500 hover:bg-gray-500 dark:hover:bg-gray-400 transition-all duration-200 w-1/2 flex items-center justify-center gap-4 py-2 px-1 rounded-lg">
+                  <button className="bg-gray-400/75 dark:bg-gray-500 hover:bg-gray-500 dark:hover:bg-gray-400 transition-all duration-200 w-auto flex items-center justify-center gap-4 py-2 px-1 rounded-lg">
                     Preview <FaArrowRight />
                   </button>
                 </div>
@@ -178,7 +178,7 @@ export default function Home() {
 
           <motion.div
             variants={item}
-            className="col-span-1 lg:row-span-5 bg-gray-300/50 dark:bg-gray-800/50 backdrop-blur-2xl transition-all duration-200 shadow-xl dark:shadow-none p-4 rounded-lg flex items-center justify-center"
+            className="col-span-2 md:col-span-1 lg:row-span-5 bg-gray-300/50 dark:bg-gray-800/50 backdrop-blur-2xl transition-all duration-200 shadow-xl dark:shadow-none p-4 rounded-lg flex items-center justify-center"
           >
             <span className="text-gray-800 dark:text-gray-200 text-center">
               Currently working in
@@ -190,7 +190,7 @@ export default function Home() {
 
           <motion.div
             variants={item}
-            className="col-span-1 row-span-3 lg:row-span-4 bg-gray-300/50 dark:bg-gray-800/50 backdrop-blur-2xl transition-all duration-200 shadow-xl dark:shadow-none p-4 rounded-lg flex flex-col gap-4 items-center justify-center"
+            className="col-span-2 md:col-span-1 row-span-3 lg:row-span-4 bg-gray-300/50 dark:bg-gray-800/50 backdrop-blur-2xl transition-all duration-200 shadow-xl dark:shadow-none p-4 rounded-lg flex flex-col gap-4 items-center justify-center"
           >
             <span className="text-gray-800 dark:text-white text-lg text-center">
               Wow, what a cool site?
@@ -205,7 +205,7 @@ export default function Home() {
 
           <motion.div
             variants={item}
-            className="col-span-1 md:col-span-2 row-span-2 bg-gray-300/50 dark:bg-gray-800/50 backdrop-blur-2xl transition-all duration-200 shadow-xl dark:shadow-none p-4 rounded-lg flex items-center justify-center"
+            className="col-span-2 md:col-span-2 row-span-2 bg-gray-300/50 dark:bg-gray-800/50 backdrop-blur-2xl transition-all duration-200 shadow-xl dark:shadow-none p-4 rounded-lg flex items-center justify-center"
           >
             <AnimatedTypingText />
           </motion.div>
@@ -239,7 +239,7 @@ export default function Home() {
                 ©marmdhn2024
               </span>
             </div>
-            <div className="flex justify-center md:justify-end items-center space-x-2 gap-2 col-span-1 md:col-span-1">
+            <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-end items-center space-x-2 gap-2 col-span-1 md:col-span-1">
               <div className="relative group">
                 <Link href="https://nextjs.org/" target="_blank">
                   <TbBrandNextjs
