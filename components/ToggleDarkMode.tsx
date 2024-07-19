@@ -12,16 +12,16 @@ const ToggleDarkMode = ({ iconSize }: { iconSize?: number }) => {
   };
 
   return (
-    <button
+    <div
       onClick={toggleDarkMode}
-      className="text-gray-800 transition-all duration-200 dark:text-white hover:scale-125 hover:text-gray-400 dark:hover:text-gray-400"
+      className="text-gray-800 transition-all duration-200 dark:text-white hover:scale-125 hover:text-gray-400 dark:hover:text-gray-400 hover:cursor-pointer"
     >
       {isDarkMode ? (
         <MdDarkMode size={iconSize} />
       ) : (
         <MdLightMode size={iconSize} />
       )}
-    </button>
+    </div>
   );
 };
 
