@@ -102,57 +102,53 @@ const ModalPortfolio: React.FC<PortfolioModalProps> = ({ portfolio }) => {
               </div>
 
               <div className="relative px-6 pb-6 flex-auto">
-                {portfolio!.images.length !== 0 && (
-                  <div
-                    className={`relative flex items-center justify-center transition-all duration-200 ${
-                      isLoading
-                        ? "h-96 w-full rounded-lg bg-gray-500 animate-pulse dark:bg-gray-700"
-                        : ""
-                    }`}
-                  >
-                    {isLoading && (
-                      <FaImage className="absolute w-10 h-10 text-gray-200 dark:text-gray-600 transition-all duration-200" />
-                    )}
-                    <Zoom zoomMargin={40}>
-                      <Image
-                        unoptimized
-                        width={100}
-                        height={100}
-                        className={`w-full h-96 object-cover rounded-lg object-center mb-4 transition-opacity duration-500 ${
-                          isLoading ? "opacity-0" : "opacity-100"
-                        }`}
-                        src={`/images/portfolio/${
-                          portfolio!.images[selectedImageIndex] ??
-                          "imageNotFound.png"
-                        }`}
-                        alt={portfolio?.title as string}
-                        onLoad={() =>
-                          setTimeout(() => setIsLoading(false), 500)
-                        }
-                      />
-                    </Zoom>
-                    {portfolio!.images.length > 1 && (
-                      <>
-                        <div className="absolute inset-y-0 left-0 flex items-center">
-                          <button
-                            className="text-gray-800 hover:text-white p-2 hover:bg-gray-700 rounded-full w-10 h-10 transition-all duration-200"
-                            onClick={prevImage}
-                          >
-                            {"<"}
-                          </button>
-                        </div>
-                        <div className="absolute inset-y-0 right-0 flex items-center">
-                          <button
-                            className="text-gray-800 hover:text-white p-2 hover:bg-gray-700 rounded-full w-10 h-10 transition-all duration-200"
-                            onClick={nextImage}
-                          >
-                            {">"}
-                          </button>
-                        </div>
-                      </>
-                    )}
-                  </div>
-                )}
+                <div
+                  className={`relative flex items-center justify-center transition-all duration-200 ${
+                    isLoading
+                      ? "h-96 w-full rounded-lg bg-gray-500 animate-pulse dark:bg-gray-700"
+                      : ""
+                  }`}
+                >
+                  {isLoading && (
+                    <FaImage className="absolute w-10 h-10 text-gray-200 dark:text-gray-600 transition-all duration-200" />
+                  )}
+                  <Zoom zoomMargin={40}>
+                    <Image
+                      unoptimized
+                      width={100}
+                      height={100}
+                      className={`w-full h-96 object-cover rounded-lg object-center mb-4 transition-opacity duration-500 ${
+                        isLoading ? "opacity-0" : "opacity-100"
+                      }`}
+                      src={`/images/portfolio/${
+                        portfolio!.images[selectedImageIndex] ??
+                        "imageNotFound.png"
+                      }`}
+                      alt={portfolio?.title as string}
+                      onLoad={() => setTimeout(() => setIsLoading(false), 500)}
+                    />
+                  </Zoom>
+                  {portfolio!.images.length > 1 && (
+                    <>
+                      <div className="absolute inset-y-0 left-0 flex items-center">
+                        <button
+                          className="text-gray-800 hover:text-white p-2 hover:bg-gray-700 rounded-full w-10 h-10 transition-all duration-200"
+                          onClick={prevImage}
+                        >
+                          {"<"}
+                        </button>
+                      </div>
+                      <div className="absolute inset-y-0 right-0 flex items-center">
+                        <button
+                          className="text-gray-800 hover:text-white p-2 hover:bg-gray-700 rounded-full w-10 h-10 transition-all duration-200"
+                          onClick={nextImage}
+                        >
+                          {">"}
+                        </button>
+                      </div>
+                    </>
+                  )}
+                </div>
               </div>
             </div>
           </div>
