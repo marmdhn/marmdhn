@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: change tag button to div" />
+    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: idea" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,46 +108,7 @@
       <workItem from="1721179798058" duration="9444000" />
       <workItem from="1721202020129" duration="14000" />
       <workItem from="1721353304564" duration="5861000" />
-    </task>
-    <task id="LOCAL-00112" summary="refactor: idea">
-      <option name="closed" value="true" />
-      <created>1720958724391</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1720958724391</updated>
-    </task>
-    <task id="LOCAL-00113" summary="refactor: compress file size">
-      <option name="closed" value="true" />
-      <created>1720958902224</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1720958902224</updated>
-    </task>
-    <task id="LOCAL-00114" summary="refactor: implement framer motion">
-      <option name="closed" value="true" />
-      <created>1720963488718</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1720963488718</updated>
-    </task>
-    <task id="LOCAL-00115" summary="refactor: adjust framer motion">
-      <option name="closed" value="true" />
-      <created>1720963493765</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1720963493765</updated>
-    </task>
-    <task id="LOCAL-00116" summary="style: add bg opacity">
-      <option name="closed" value="true" />
-      <created>1720963504201</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1720963504202</updated>
+      <workItem from="1721361931593" duration="2168000" />
     </task>
     <task id="LOCAL-00117" summary="refactor: idea">
       <option name="closed" value="true" />
@@ -501,7 +462,47 @@
       <option name="project" value="LOCAL" />
       <updated>1721359955430</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="feat: add image">
+      <option name="closed" value="true" />
+      <created>1721364094831</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1721364094832</updated>
+    </task>
+    <task id="LOCAL-00162" summary="refactor: add data">
+      <option name="closed" value="true" />
+      <created>1721364103333</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1721364103333</updated>
+    </task>
+    <task id="LOCAL-00163" summary="refactor: adjust validation for website url">
+      <option name="closed" value="true" />
+      <created>1721364115219</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1721364115219</updated>
+    </task>
+    <task id="LOCAL-00164" summary="refactor: adjust validation for images length">
+      <option name="closed" value="true" />
+      <created>1721364126783</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1721364126783</updated>
+    </task>
+    <task id="LOCAL-00165" summary="refactor: idea">
+      <option name="closed" value="true" />
+      <created>1721364130859</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1721364130859</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,16 +510,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor: adjust text" />
-    <MESSAGE value="refactor: adjust data" />
-    <MESSAGE value="style: adjust grid cols" />
-    <MESSAGE value="refactor: add plugins tailwind scrollbar" />
     <MESSAGE value="refactor: add tailwind scrollbar" />
     <MESSAGE value="refactor: implement zoom image" />
     <MESSAGE value="style: add style for custom scrollbar" />
     <MESSAGE value="refactor: add skills" />
     <MESSAGE value="feat: add images" />
-    <MESSAGE value="refactor: add data" />
     <MESSAGE value="refactor: adjust logic for type ui ux" />
     <MESSAGE value="refactor: adjust UI" />
     <MESSAGE value="style: adjust font weight" />
@@ -534,6 +530,11 @@
     <MESSAGE value="style: adjust backdrop blur condition" />
     <MESSAGE value="feat: implement navbar for mobile" />
     <MESSAGE value="refactor: change tag button to div" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: change tag button to div" />
+    <MESSAGE value="feat: add image" />
+    <MESSAGE value="refactor: add data" />
+    <MESSAGE value="refactor: adjust validation for website url" />
+    <MESSAGE value="refactor: adjust validation for images length" />
+    <MESSAGE value="refactor: idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: idea" />
   </component>
 </project>
