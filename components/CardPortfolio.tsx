@@ -94,6 +94,24 @@ const CardPortfolio: React.FC<PortfolioCardTypes> = ({
               )
             ) : null}
 
+            {type === "website" ? (
+              webUrl ? (
+                <Link
+                  href={webUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 dark:text-blue-500 hover:underline"
+                >
+                  Visit Website
+                  <FaExternalLinkAlt className="inline ml-1" />
+                </Link>
+              ) : (
+                <span className="text-gray-400">Website not available</span>
+              )
+            ) : (
+              <></>
+            )}
+
             {type === "mobile" ? (
               webUrl ? (
                 <Link
