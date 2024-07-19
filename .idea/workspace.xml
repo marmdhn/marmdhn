@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="feat: add speed insight from vercel">
+    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: Adjust github profile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,111 +106,8 @@
       <workItem from="1721044046980" duration="6479000" />
       <workItem from="1721097112094" duration="9863000" />
       <workItem from="1721126404661" duration="243000" />
-      <workItem from="1721179798058" duration="4197000" />
-    </task>
-    <task id="LOCAL-00095" summary="refactor: add gradient animation">
-      <option name="closed" value="true" />
-      <created>1720952335033</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1720952335033</updated>
-    </task>
-    <task id="LOCAL-00096" summary="feat: add images">
-      <option name="closed" value="true" />
-      <created>1720952343046</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1720952343046</updated>
-    </task>
-    <task id="LOCAL-00097" summary="refactor: implement framer motion">
-      <option name="closed" value="true" />
-      <created>1720952371276</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1720952371276</updated>
-    </task>
-    <task id="LOCAL-00098" summary="style: adjust background color">
-      <option name="closed" value="true" />
-      <created>1720952389761</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1720952389761</updated>
-    </task>
-    <task id="LOCAL-00099" summary="refactor: change file name &amp; function name">
-      <option name="closed" value="true" />
-      <created>1720952417210</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1720952417210</updated>
-    </task>
-    <task id="LOCAL-00100" summary="refactor: change file name &amp; function name">
-      <option name="closed" value="true" />
-      <created>1720952432827</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1720952432827</updated>
-    </task>
-    <task id="LOCAL-00101" summary="refactor: idea">
-      <option name="closed" value="true" />
-      <created>1720952438328</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1720952438328</updated>
-    </task>
-    <task id="LOCAL-00102" summary="feat: add Experience Section">
-      <option name="closed" value="true" />
-      <created>1720952448698</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1720952448698</updated>
-    </task>
-    <task id="LOCAL-00103" summary="feat: add modal preview cv">
-      <option name="closed" value="true" />
-      <created>1720952456078</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1720952456078</updated>
-    </task>
-    <task id="LOCAL-00104" summary="refactor: implement for active path">
-      <option name="closed" value="true" />
-      <created>1720952467160</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1720952467160</updated>
-    </task>
-    <task id="LOCAL-00105" summary="refactor: implement section about &amp; experience">
-      <option name="closed" value="true" />
-      <created>1720952479914</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1720952479914</updated>
-    </task>
-    <task id="LOCAL-00106" summary="refactor: implement UI">
-      <option name="closed" value="true" />
-      <created>1720952502359</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1720952502359</updated>
-    </task>
-    <task id="LOCAL-00107" summary="feat: add images">
-      <option name="closed" value="true" />
-      <created>1720958664470</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1720958664470</updated>
+      <workItem from="1721179798058" duration="9444000" />
+      <workItem from="1721202020129" duration="14000" />
     </task>
     <task id="LOCAL-00108" summary="refactor: add motion animation">
       <option name="closed" value="true" />
@@ -501,7 +397,111 @@
       <option name="project" value="LOCAL" />
       <updated>1721126637128</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="style: adjust bg color">
+      <option name="closed" value="true" />
+      <created>1721187527705</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1721187527705</updated>
+    </task>
+    <task id="LOCAL-00145" summary="refactor: implement image loading on load">
+      <option name="closed" value="true" />
+      <created>1721187545666</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1721187545666</updated>
+    </task>
+    <task id="LOCAL-00146" summary="refactor: implement image loading on load">
+      <option name="closed" value="true" />
+      <created>1721187553034</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1721187553034</updated>
+    </task>
+    <task id="LOCAL-00147" summary="style: adjust responsive">
+      <option name="closed" value="true" />
+      <created>1721187565272</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1721187565272</updated>
+    </task>
+    <task id="LOCAL-00148" summary="refactor: adjust username for github url">
+      <option name="closed" value="true" />
+      <created>1721187720040</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1721187720040</updated>
+    </task>
+    <task id="LOCAL-00149" summary="style: adjust preview button">
+      <option name="closed" value="true" />
+      <created>1721187924223</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1721187924223</updated>
+    </task>
+    <task id="LOCAL-00150" summary="refactor: Adjust github profile">
+      <option name="closed" value="true" />
+      <created>1721188195007</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1721188195007</updated>
+    </task>
+    <task id="LOCAL-00151" summary="refactor: Adjust github profile">
+      <option name="closed" value="true" />
+      <created>1721188806002</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1721188806002</updated>
+    </task>
+    <task id="LOCAL-00152" summary="refactor: Adjust github profile">
+      <option name="closed" value="true" />
+      <created>1721189656868</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1721189656868</updated>
+    </task>
+    <task id="LOCAL-00153" summary="refactor: Adjust github profile">
+      <option name="closed" value="true" />
+      <created>1721189730817</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1721189730817</updated>
+    </task>
+    <task id="LOCAL-00154" summary="refactor: Adjust cv file">
+      <option name="closed" value="true" />
+      <created>1721189834152</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1721189834152</updated>
+    </task>
+    <task id="LOCAL-00155" summary="refactor: Adjust github profile">
+      <option name="closed" value="true" />
+      <created>1721189934163</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1721189934163</updated>
+    </task>
+    <task id="LOCAL-00156" summary="refactor: Adjust github profile">
+      <option name="closed" value="true" />
+      <created>1721201993453</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1721201993454</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,13 +509,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor: compress file size" />
-    <MESSAGE value="refactor: implement framer motion" />
-    <MESSAGE value="refactor: adjust framer motion" />
-    <MESSAGE value="style: add bg opacity" />
-    <MESSAGE value="refactor: idea" />
-    <MESSAGE value="style: move text color to text element" />
-    <MESSAGE value="refactor: change filename" />
     <MESSAGE value="refactor: remove console log" />
     <MESSAGE value="refactor: adjust logic next prev if images length &gt; 1" />
     <MESSAGE value="feat: add image" />
@@ -534,6 +527,13 @@
     <MESSAGE value="refactor: adjust UI" />
     <MESSAGE value="style: adjust font weight" />
     <MESSAGE value="style: adjust text color" />
-    <option name="LAST_COMMIT_MESSAGE" value="style: adjust text color" />
+    <MESSAGE value="style: adjust bg color" />
+    <MESSAGE value="refactor: implement image loading on load" />
+    <MESSAGE value="style: adjust responsive" />
+    <MESSAGE value="refactor: adjust username for github url" />
+    <MESSAGE value="style: adjust preview button" />
+    <MESSAGE value="refactor: Adjust cv file" />
+    <MESSAGE value="refactor: Adjust github profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: Adjust github profile" />
   </component>
 </project>

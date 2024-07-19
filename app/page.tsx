@@ -59,7 +59,7 @@ export default function Home() {
         transition={{ duration: 0.5 }}
         className="z-50 w-full max-w-7xl items-center justify-between font-mono text-sm lg:flex"
       >
-        <div className="lg:hidden fixed font-bold left-0 top-0 flex gap-4 w-full justify-center pb-6 pt-8 backdrop-blur-2xl dark:bg-transparent lg:dark:bg-gray-800/50 lg:static lg:w-auto lg:rounded-xl lg:bg-gray-300/50 lg:p-4 transition-all duration-200">
+        <div className="lg:hidden fixed font-bold left-0 top-0 flex gap-4 w-full justify-center items-center pb-6 pt-8 backdrop-blur-2xl dark:bg-transparent lg:dark:bg-gray-800/50 lg:static lg:w-auto lg:rounded-xl lg:bg-gray-300/50 lg:p-4 transition-all duration-200">
           <p className="text-gray-800 dark:text-gray-200">Home</p>
           <ToggleDarkMode />
         </div>
@@ -112,7 +112,7 @@ export default function Home() {
           initial="hidden"
           animate="visible"
           variants={container}
-          className="relative z-20 w-full max-w-7xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 my-16 lg:my-0"
+          className="relative z-20 w-full max-w-7xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-16 lg:my-0"
         >
           <motion.div
             variants={item}
@@ -146,7 +146,7 @@ export default function Home() {
                 </p>
               </div>
               <Link href="/projects">
-                <div className="flex justify-end items-center gap-2 transition-all duration-200 font-semibold text-white">
+                <div className="flex justify-end items-center gap-2 transition-all duration-200 font-semibold text-white mt-4 sm:mt-0">
                   <button className="bg-gray-400/75 dark:bg-gray-500 hover:bg-gray-500 dark:hover:bg-gray-400 transition-all duration-200 w-auto flex items-center justify-center gap-4 py-2 px-4 rounded-lg">
                     Preview <FaArrowRight />
                   </button>
