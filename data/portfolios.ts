@@ -4,7 +4,7 @@ export const portfolios: PortfolioCardTypes[] = [
   {
     title: "Website Sekolah Baitul Adab",
     imageCover: "website-baitul-adab.png",
-    techStack: ["ReactJs", "TypeScript", "Tailwindcss", "Daisy UI"],
+    techStack: ["ReactJs", "TypeScript", "Tailwindcss", "Daisy UI", "AOS"],
     companyName: "Baitul Adab Islamic School",
     type: "website",
     images: ["/baitul-adab/baitul-adab-1.png"],
@@ -58,6 +58,16 @@ export const portfolios: PortfolioCardTypes[] = [
     type: "website",
     images: ["/atm-bank/atm-bank-1.png"],
     githubRepo: "https://github.com/marmdhn/ATM-Bank-Case",
+  },
+  {
+    title: "IniCoding",
+    imageCover: "iniCoding.png",
+    techStack: ["ReactJs", "Bootstrap", "AOS"],
+    companyName: "Personal Project",
+    type: "website",
+    images: [],
+    webUrl: "https://inicoding.marmdhn.com/",
+    githubRepo: "https://github.com/marmdhn/course-web-reactjs",
   },
   {
     title: "MAR Quran App",
