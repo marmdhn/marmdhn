@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: Adjust github profile">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: change tag button to div" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +59,7 @@
       <recent name="D:\Personal Project\Coding\Nextjs\my-new-portfolio\public\music" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Personal Project\Coding\Nextjs\marmdhn\components" />
       <recent name="D:\Personal Project\Coding\Nextjs\my-new-portfolio\components" />
     </key>
   </component>
@@ -108,38 +107,7 @@
       <workItem from="1721126404661" duration="243000" />
       <workItem from="1721179798058" duration="9444000" />
       <workItem from="1721202020129" duration="14000" />
-    </task>
-    <task id="LOCAL-00108" summary="refactor: add motion animation">
-      <option name="closed" value="true" />
-      <created>1720958678410</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1720958678410</updated>
-    </task>
-    <task id="LOCAL-00109" summary="feat: add client section">
-      <option name="closed" value="true" />
-      <created>1720958686487</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1720958686487</updated>
-    </task>
-    <task id="LOCAL-00110" summary="refactor: adjust filename &amp; active condition">
-      <option name="closed" value="true" />
-      <created>1720958709693</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1720958709693</updated>
-    </task>
-    <task id="LOCAL-00111" summary="refactor: implement client section">
-      <option name="closed" value="true" />
-      <created>1720958718740</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1720958718740</updated>
+      <workItem from="1721353304564" duration="5861000" />
     </task>
     <task id="LOCAL-00112" summary="refactor: idea">
       <option name="closed" value="true" />
@@ -501,7 +469,39 @@
       <option name="project" value="LOCAL" />
       <updated>1721201993454</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="style: adjust items center">
+      <option name="closed" value="true" />
+      <created>1721359838132</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1721359838133</updated>
+    </task>
+    <task id="LOCAL-00158" summary="style: adjust backdrop blur condition">
+      <option name="closed" value="true" />
+      <created>1721359931978</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1721359931978</updated>
+    </task>
+    <task id="LOCAL-00159" summary="feat: implement navbar for mobile">
+      <option name="closed" value="true" />
+      <created>1721359945129</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1721359945129</updated>
+    </task>
+    <task id="LOCAL-00160" summary="refactor: change tag button to div">
+      <option name="closed" value="true" />
+      <created>1721359955430</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1721359955430</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,10 +509,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor: remove console log" />
-    <MESSAGE value="refactor: adjust logic next prev if images length &gt; 1" />
-    <MESSAGE value="feat: add image" />
-    <MESSAGE value="refactor: adjust type mobile &amp; website" />
     <MESSAGE value="refactor: adjust text" />
     <MESSAGE value="refactor: adjust data" />
     <MESSAGE value="style: adjust grid cols" />
@@ -534,6 +530,10 @@
     <MESSAGE value="style: adjust preview button" />
     <MESSAGE value="refactor: Adjust cv file" />
     <MESSAGE value="refactor: Adjust github profile" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: Adjust github profile" />
+    <MESSAGE value="style: adjust items center" />
+    <MESSAGE value="style: adjust backdrop blur condition" />
+    <MESSAGE value="feat: implement navbar for mobile" />
+    <MESSAGE value="refactor: change tag button to div" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: change tag button to div" />
   </component>
 </project>
