@@ -30,13 +30,13 @@ const ExperienceSection = () => {
         <h2 className="text-4xl font-bold text-center text-primary mb-8">
           Companies I&apos;ve Worked For
         </h2>
-        <div className="relative grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-8 p-8 bg-gradient-to-r from-primary to-secondary rounded-xl animate-gradient bg-[length:200%_200%]">
+        <div className="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-8 p-8 bg-gradient-to-r from-primary to-secondary rounded-xl animate-gradient bg-[length:200%_200%]">
           {companies.map((company, index) => (
             <div
               key={index}
-              className={`relative flex flex-col justify-center items-center p-4 bg-white bg-opacity-50 rounded-xl shadow-lg transition-all duration-200 ${
+              className={`h-64 sm:h-36 lg:h-auto relative flex flex-col justify-center items-center p-4 bg-white bg-opacity-50 rounded-xl shadow-lg transition-all duration-200 ${
                 company.active && "border-4 border-primary shadow-primary"
-              } animate-rotate`}
+              }`}
             >
               {company.active && (
                 <span className="absolute top-4 text-xl font-bold text-primary-dark animate-scale">
@@ -50,7 +50,7 @@ const ExperienceSection = () => {
                 height={100}
                 priority
                 unoptimized
-                className={`w-3/4 h-auto object-cover transition-all duration-200 hover:scale-110  ${
+                className={`w-full lg:w-3/4 h-auto object-cover transition-all duration-200 hover:scale-110  ${
                   company.active ? "" : "grayscale hover:grayscale-0"
                 }`}
               />

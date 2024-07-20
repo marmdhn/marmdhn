@@ -30,13 +30,13 @@ const ClientSection = () => {
         <h2 className="text-4xl font-bold text-center text-primary mb-8">
           My Clients for Business
         </h2>
-        <div className="relative grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-8 p-8 bg-gradient-to-r from-secondary to-primary rounded-xl animate-gradient bg-[length:200%_200%]">
+        <div className="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-8 p-8 bg-gradient-to-r from-secondary to-primary rounded-xl animate-gradient bg-[length:200%_200%]">
           {companies.map((company, index) => (
             <div
               key={index}
-              className={`relative flex flex-col justify-center items-center p-4 bg-white bg-opacity-50 rounded-xl shadow-lg transition-all duration-200 ${
+              className={`h-64 sm:h-36 lg:h-auto relative flex flex-col justify-center items-center p-4 bg-white bg-opacity-50 rounded-xl shadow-lg transition-all duration-200 ${
                 company.active && "border-4 border-primary shadow-primary"
-              } animate-rotate`}
+              }`}
             >
               {company.active && (
                 <span className="absolute top-4 text-xl font-bold text-primary-dark animate-scale">
