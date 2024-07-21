@@ -132,7 +132,7 @@ const ModalPortfolio: React.FC<PortfolioModalProps> = ({ portfolio }) => {
                     <>
                       <div className="absolute inset-y-0 left-0 flex items-center">
                         <button
-                          className="text-gray-800 hover:text-white p-2 hover:bg-gray-700 rounded-full w-10 h-10 transition-all duration-200"
+                          className="text-white bg-secondary hover:bg-secondary-dark rounded-full w-10 h-10 transition-all duration-200"
                           onClick={prevImage}
                         >
                           {"<"}
@@ -140,7 +140,7 @@ const ModalPortfolio: React.FC<PortfolioModalProps> = ({ portfolio }) => {
                       </div>
                       <div className="absolute inset-y-0 right-0 flex items-center">
                         <button
-                          className="text-gray-800 hover:text-white p-2 hover:bg-gray-700 rounded-full w-10 h-10 transition-all duration-200"
+                          className="text-white bg-secondary hover:bg-secondary-dark rounded-full w-10 h-10 transition-all duration-200"
                           onClick={nextImage}
                         >
                           {">"}
