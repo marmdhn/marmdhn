@@ -42,12 +42,14 @@ const ModalPortfolio: React.FC<PortfolioModalProps> = ({ portfolio }) => {
     setSelectedImageIndex((prevIndex) =>
       prevIndex === portfolio!.images.length - 1 ? 0 : prevIndex + 1,
     );
+    console.log(isLoading);
   };
 
   const prevImage = () => {
     setSelectedImageIndex((prevIndex) =>
       prevIndex === 0 ? portfolio!.images.length - 1 : prevIndex - 1,
     );
+    console.log(isLoading);
   };
 
   return (
