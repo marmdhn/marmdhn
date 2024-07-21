@@ -56,7 +56,11 @@ export const portfolios: PortfolioCardTypes[] = [
     techStack: [".NET", "Blazor", "Bootstrap", "SQL Server"],
     companyName: "PT. Akhdani Reka Solusi",
     type: "website",
-    images: ["/atm-bank/atm-bank-1.png"],
+    images: [
+      "/atm-bank/atm-bank-1.png",
+      "/atm-bank/atm-bank-2.png",
+      "/atm-bank/atm-bank-3.png",
+    ],
     githubRepo: "https://github.com/marmdhn/ATM-Bank-Case",
   },
   {
