@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: change currently learning">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ModalPortfolio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ModalPortfolio.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: add console log check for is loading" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,22 +114,6 @@
       <workItem from="1721468669406" duration="828000" />
       <workItem from="1721575420647" duration="109000" />
       <workItem from="1721575636449" duration="296000" />
-    </task>
-    <task id="LOCAL-00120" summary="refactor: adjust data">
-      <option name="closed" value="true" />
-      <created>1721009588714</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1721009588714</updated>
-    </task>
-    <task id="LOCAL-00121" summary="refactor: remove console log">
-      <option name="closed" value="true" />
-      <created>1721009596460</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1721009596460</updated>
     </task>
     <task id="LOCAL-00122" summary="refactor: adjust logic next prev if images length &gt; 1">
       <option name="closed" value="true" />
@@ -510,7 +491,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721575521211</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="refactor: adjust images portfolio">
+      <option name="closed" value="true" />
+      <created>1721576543644</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1721576543644</updated>
+    </task>
+    <task id="LOCAL-00170" summary="refactor: add console log check for is loading">
+      <option name="closed" value="true" />
+      <created>1721576556998</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1721576556998</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,8 +515,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor: add skills" />
-    <MESSAGE value="feat: add images" />
     <MESSAGE value="refactor: adjust logic for type ui ux" />
     <MESSAGE value="refactor: adjust UI" />
     <MESSAGE value="style: adjust font weight" />
@@ -543,6 +538,8 @@
     <MESSAGE value="refactor: change images" />
     <MESSAGE value="refactor: adjust responsive" />
     <MESSAGE value="refactor: change currently learning" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: change currently learning" />
+    <MESSAGE value="refactor: adjust images portfolio" />
+    <MESSAGE value="refactor: add console log check for is loading" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: add console log check for is loading" />
   </component>
 </project>

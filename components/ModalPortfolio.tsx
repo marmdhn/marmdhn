@@ -42,14 +42,12 @@ const ModalPortfolio: React.FC<PortfolioModalProps> = ({ portfolio }) => {
     setSelectedImageIndex((prevIndex) =>
       prevIndex === portfolio!.images.length - 1 ? 0 : prevIndex + 1,
     );
-    console.log(isLoading);
   };
 
   const prevImage = () => {
     setSelectedImageIndex((prevIndex) =>
       prevIndex === 0 ? portfolio!.images.length - 1 : prevIndex - 1,
     );
-    console.log(isLoading);
   };
 
   return (
@@ -127,7 +125,7 @@ const ModalPortfolio: React.FC<PortfolioModalProps> = ({ portfolio }) => {
                         "imageNotFound.png"
                       }`}
                       alt={portfolio?.title as string}
-                      onLoad={() => setTimeout(() => setIsLoading(false), 500)}
+                      onLoad={() => setIsLoading(false)}
                     />
                   </Zoom>
                   {portfolio!.images.length > 1 && (
