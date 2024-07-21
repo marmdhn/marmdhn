@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on [PPDB Telkom Schools](https://ppdb.telkomschools.sch.id/)
 
-- 🌱 I’m currently learning **NextJs**
+- 🌱 I’m currently learning **React Native**
 
 - 👯 I’m looking to collaborate on **Anyone**
 
