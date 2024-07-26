@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: remove settimeout">
+    <list default="true" id="a7c57c96-edaf-4f02-ae37-155b71acab0d" name="Changes" comment="refactor: change profile image">
+      <change afterPath="$PROJECT_DIR$/public/new_profile.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/AboutMeSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/AboutMeSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/profile.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,29 +35,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Personal Project/Coding/React Native/first-try&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\makba\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\Personal Project\\Coding\\Nextjs\\marmdhn\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Personal Project/Coding/Nextjs/marmdhn/public",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\makba\\AppData\\Roaming\\npm\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "D:\\Personal Project\\Coding\\Nextjs\\marmdhn\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Personal Project\Coding\Nextjs\marmdhn\public" />
       <recent name="D:\Personal Project\Coding\Nextjs\my-new-portfolio\app\about" />
       <recent name="D:\Personal Project\Coding\Nextjs\my-new-portfolio\app\projects" />
       <recent name="D:\Personal Project\Coding\Nextjs\my-new-portfolio\app" />
@@ -120,46 +124,8 @@
       <workItem from="1721613924526" duration="15000" />
       <workItem from="1721804119153" duration="981000" />
       <workItem from="1721818956702" duration="7000" />
-    </task>
-    <task id="LOCAL-00123" summary="feat: add image">
-      <option name="closed" value="true" />
-      <created>1721045757536</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1721045757537</updated>
-    </task>
-    <task id="LOCAL-00124" summary="refactor: adjust type mobile &amp; website">
-      <option name="closed" value="true" />
-      <created>1721045776124</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1721045776124</updated>
-    </task>
-    <task id="LOCAL-00125" summary="refactor: add data">
-      <option name="closed" value="true" />
-      <created>1721045783101</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1721045783101</updated>
-    </task>
-    <task id="LOCAL-00126" summary="refactor: adjust text">
-      <option name="closed" value="true" />
-      <created>1721046101342</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1721046101342</updated>
-    </task>
-    <task id="LOCAL-00127" summary="refactor: adjust data">
-      <option name="closed" value="true" />
-      <created>1721046106380</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1721046106380</updated>
+      <workItem from="1721909967885" duration="3013000" />
+      <workItem from="1721957891289" duration="1136000" />
     </task>
     <task id="LOCAL-00128" summary="style: adjust grid cols">
       <option name="closed" value="true" />
@@ -513,7 +479,47 @@
       <option name="project" value="LOCAL" />
       <updated>1721576819222</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="refactor: change logo file">
+      <option name="closed" value="true" />
+      <created>1721918031171</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1721918031171</updated>
+    </task>
+    <task id="LOCAL-00173" summary="refactor: adjust path to new logo">
+      <option name="closed" value="true" />
+      <created>1721918041172</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1721918041172</updated>
+    </task>
+    <task id="LOCAL-00174" summary="refactor: change favicon to new logo">
+      <option name="closed" value="true" />
+      <created>1721918052598</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1721918052598</updated>
+    </task>
+    <task id="LOCAL-00175" summary="refactor: idea">
+      <option name="closed" value="true" />
+      <created>1721918056369</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1721918056369</updated>
+    </task>
+    <task id="LOCAL-00176" summary="refactor: change profile image">
+      <option name="closed" value="true" />
+      <created>1721958453317</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1721958453318</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,10 +527,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor: adjust UI" />
-    <MESSAGE value="style: adjust font weight" />
-    <MESSAGE value="style: adjust text color" />
-    <MESSAGE value="style: adjust bg color" />
     <MESSAGE value="refactor: implement image loading on load" />
     <MESSAGE value="style: adjust responsive" />
     <MESSAGE value="refactor: adjust username for github url" />
@@ -539,13 +541,17 @@
     <MESSAGE value="refactor: add data" />
     <MESSAGE value="refactor: adjust validation for website url" />
     <MESSAGE value="refactor: adjust validation for images length" />
-    <MESSAGE value="refactor: idea" />
     <MESSAGE value="refactor: change images" />
     <MESSAGE value="refactor: adjust responsive" />
     <MESSAGE value="refactor: change currently learning" />
     <MESSAGE value="refactor: adjust images portfolio" />
     <MESSAGE value="refactor: add console log check for is loading" />
     <MESSAGE value="refactor: remove settimeout" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: remove settimeout" />
+    <MESSAGE value="refactor: change logo file" />
+    <MESSAGE value="refactor: adjust path to new logo" />
+    <MESSAGE value="refactor: change favicon to new logo" />
+    <MESSAGE value="refactor: idea" />
+    <MESSAGE value="refactor: change profile image" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: change profile image" />
   </component>
 </project>

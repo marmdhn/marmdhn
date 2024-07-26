@@ -32,7 +32,7 @@ const AboutMeSection = () => {
             <FaImage className="absolute w-10 h-10 text-gray-200 dark:text-gray-600 transition-all duration-200" />
           )}
           <Image
-            src="/profile.png"
+            src="/new-profile.png"
             alt="Muhammad Akbar Ramadhan"
             width={100}
             height={100}
