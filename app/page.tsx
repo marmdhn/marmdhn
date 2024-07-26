@@ -120,10 +120,11 @@ export default function Home() {
           >
             <div className="w-24 h-24 rounded-full overflow-hidden bg-gray-600 mb-4 transition-all duration-200 hover:scale-110">
               <Image
-                src={"/profile.png"}
+                src={"/new_profile.png"}
                 alt={"image"}
                 width={100}
                 height={100}
+                unoptimized
                 className="object-contain w-full h-full"
               />
             </div>
