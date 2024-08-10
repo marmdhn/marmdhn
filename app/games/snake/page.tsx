@@ -57,7 +57,7 @@ const SnakeGame = () => {
   }, [moveSnake, isGameOver]);
 
   const handleKeyPress = useCallback(
-    (e) => {
+    (e: any) => {
       switch (e.key) {
         case "ArrowUp":
           if (direction.y !== 1) setDirection({ x: 0, y: -1 });
