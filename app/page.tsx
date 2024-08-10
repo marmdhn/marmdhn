@@ -7,6 +7,7 @@ import AnimatedLogo from "@/components/AnimatedLogo";
 import {
   FaArrowRight,
   FaGithub,
+  FaImage,
   FaInstagram,
   FaLinkedin,
   FaPython,
@@ -126,13 +127,18 @@ export default function Home() {
                 isLoading ? "bg-gray-500 animate-pulse dark:bg-gray-700" : ""
               }`}
             >
+              {isLoading && (
+                <FaImage className="absolute w-5 h-5 text-gray-200 dark:text-gray-600 transition-all duration-200" />
+              )}
               <Image
                 src={"/new_profile.png"}
                 alt={"image"}
                 width={100}
                 height={100}
                 unoptimized
-                className="object-contain w-full h-full"
+                className={`object-contain w-full h-full ${
+                  isLoading ? "opacity-0" : "opacity-100"
+                }`}
                 onLoad={() => setIsLoading(false)}
               />
             </div>
