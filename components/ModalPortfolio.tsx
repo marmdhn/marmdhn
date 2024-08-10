@@ -13,8 +13,6 @@ interface PortfolioModalProps {
 }
 
 const ModalPortfolio: React.FC<PortfolioModalProps> = ({ portfolio }) => {
-  const [isLoading, setIsLoading] = useState(true);
-
   const [isOpen, setIsOpen] = useState(false);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
 
@@ -102,30 +100,18 @@ const ModalPortfolio: React.FC<PortfolioModalProps> = ({ portfolio }) => {
               </div>
 
               <div className="relative px-6 pb-6 flex-auto">
-                <div
-                  className={`relative flex items-center justify-center transition-all duration-200 ${
-                    isLoading
-                      ? "h-96 w-full rounded-lg bg-gray-500 animate-pulse dark:bg-gray-700"
-                      : ""
-                  }`}
-                >
-                  {isLoading && (
-                    <FaImage className="absolute w-10 h-10 text-gray-200 dark:text-gray-600 transition-all duration-200" />
-                  )}
+                <div className="relative flex items-center justify-center transition-all duration-200">
                   <Zoom zoomMargin={40}>
                     <Image
                       unoptimized
                       width={100}
                       height={100}
-                      className={`w-full h-96 object-cover rounded-lg object-center mb-4 transition-opacity duration-500 ${
-                        isLoading ? "opacity-0" : "opacity-100"
-                      }`}
+                      className="w-full h-96 object-cover rounded-lg object-center mb-4 transition-opacity duration-500"
                       src={`/images/portfolio/${
                         portfolio!.images[selectedImageIndex] ??
                         "imageNotFound.png"
                       }`}
                       alt={portfolio?.title as string}
-                      onLoad={() => setIsLoading(false)}
                     />
                   </Zoom>
                   {portfolio!.images.length > 1 && (
