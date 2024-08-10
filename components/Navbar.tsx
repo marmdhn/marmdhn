@@ -44,12 +44,7 @@ const Navbar = () => {
                   priority
                 />
               </Link>
-              <motion.div
-                initial={{ opacity: 0, y: -20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
-                className="space-x-4 justify-center hidden sm:flex"
-              >
+              <div className="space-x-4 justify-center hidden sm:flex">
                 <Link
                   href="/"
                   className={`text-gray-900 px-3 py-2 rounded-md text-lg font-semibold ${
@@ -81,7 +76,7 @@ const Navbar = () => {
                 >
                   About
                 </Link>
-              </motion.div>
+              </div>
             </div>
             <div className="col-span-1 ms-auto hidden sm:block">
               <div className="flex gap-4">
