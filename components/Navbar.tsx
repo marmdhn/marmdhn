@@ -7,7 +7,6 @@ import Image from "next/image";
 import NavbarMobile from "@/components/NavbarMobile";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -75,6 +74,16 @@ const Navbar = () => {
                   } transition-all duration-200`}
                 >
                   About
+                </Link>
+                <Link
+                  href="/games"
+                  className={`text-gray-900 px-3 py-2 rounded-md text-lg font-semibold ${
+                    activePath.includes("/games")
+                      ? "text-primary dark:text-primary"
+                      : "hover:text-primary dark:hover:text-primary dark:text-white"
+                  } transition-all duration-200`}
+                >
+                  Games
                 </Link>
               </div>
             </div>
