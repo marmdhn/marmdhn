@@ -124,11 +124,13 @@ export default function Home() {
           >
             <div
               className={`w-24 h-24 rounded-full overflow-hidden bg-gray-600 mb-4 transition-all duration-200 hover:scale-110 ${
-                isLoading ? "bg-gray-500 animate-pulse dark:bg-gray-700" : ""
+                isLoading
+                  ? "bg-gray-500 animate-pulse flex justify-center items-center dark:bg-gray-700"
+                  : ""
               }`}
             >
               {isLoading && (
-                <FaImage className="absolute w-5 h-5 text-gray-200 dark:text-gray-600 transition-all duration-200" />
+                <FaImage className="w-5 h-5 text-gray-200 dark:text-gray-600 transition-all duration-200" />
               )}
               <Image
                 src={"/new_profile.png"}
