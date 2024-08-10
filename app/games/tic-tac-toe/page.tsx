@@ -32,7 +32,7 @@ const TicTacToeWithAI = () => {
     return null;
   };
 
-  const handleClick = (index) => {
+  const handleClick = (index: number) => {
     if (board[index] || checkWinner(board) || !isXNext) return;
     const newBoard = board.slice();
     newBoard[index] = "X";
