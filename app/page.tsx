@@ -23,6 +23,7 @@ import MusicPlayer from "@/components/MusicPlayer";
 import AnimatedTypingText from "@/components/AnimatedTypingText";
 import ToggleDarkMode from "@/components/ToggleDarkMode";
 import { PiFigmaLogoFill } from "react-icons/pi";
+import { useState } from "react";
 
 const container = {
   hidden: { opacity: 1, scale: 0 },
@@ -51,6 +52,8 @@ const item = {
 };
 
 export default function Home() {
+  const [isLoading, setIsLoading] = useState<boolean>(true);
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-6 sm:p-12 md:p-24 sm:pt-4 sm:pb-24 md:pt-4 md:pb-24 gap-4">
       <motion.div
@@ -118,7 +121,11 @@ export default function Home() {
             variants={item}
             className="col-span-2 lg:col-span-1 row-span-2 flex flex-col items-center justify-center bg-gray-300/50 dark:bg-gray-800/50 backdrop-blur-2xl p-4 rounded-lg transition-all duration-200"
           >
-            <div className="w-24 h-24 rounded-full overflow-hidden bg-gray-600 mb-4 transition-all duration-200 hover:scale-110">
+            <div
+              className={`w-24 h-24 rounded-full overflow-hidden bg-gray-600 mb-4 transition-all duration-200 hover:scale-110 ${
+                isLoading ? "bg-gray-500 animate-pulse dark:bg-gray-700" : ""
+              }`}
+            >
               <Image
                 src={"/new_profile.png"}
                 alt={"image"}
@@ -126,6 +133,7 @@ export default function Home() {
                 height={100}
                 unoptimized
                 className="object-contain w-full h-full"
+                onLoad={() => setIsLoading(false)}
               />
             </div>
             <span className="text-gray-800 font-semibold dark:text-gray-200 text-center text-lg">
