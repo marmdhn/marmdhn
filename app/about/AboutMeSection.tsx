@@ -32,15 +32,15 @@ const AboutMeSection = () => {
             <FaImage className="absolute w-10 h-10 text-gray-200 dark:text-gray-600 transition-all duration-200" />
           )}
           <Image
-            src="/new-profile.png"
+            src="/new_profile.png"
             alt="Muhammad Akbar Ramadhan"
             width={100}
             height={100}
             unoptimized
-            onLoad={() => setTimeout(() => setIsLoading(false), 500)}
             className={`object-cover w-full h-full transition-opacity duration-500 ${
               isLoading ? "opacity-0" : "opacity-100"
             }`}
+            onLoad={() => setIsLoading(false)}
           />
         </div>
         <div className="flex flex-col gap-3 justify-center md:justify-start text-center md:text-start">
