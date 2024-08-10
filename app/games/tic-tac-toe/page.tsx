@@ -8,7 +8,7 @@ const TicTacToeWithAI = () => {
   const [isXNext, setIsXNext] = useState(true);
   const [message, setMessage] = useState("");
 
-  const checkWinner = (squares) => {
+  const checkWinner = (squares: any) => {
     const lines = [
       [0, 1, 2],
       [3, 4, 5],
