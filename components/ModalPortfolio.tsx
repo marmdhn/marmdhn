@@ -49,6 +49,20 @@ const ModalPortfolio: React.FC<PortfolioModalProps> = ({ portfolio }) => {
 
   return (
     <>
+      {/* Preload the image */}
+      <div style={{ display: "none" }}>
+        <Image
+          unoptimized
+          width={100}
+          height={100}
+          src={`/images/portfolio/${
+            portfolio!.images[selectedImageIndex] ?? "imageNotFound.png"
+          }`}
+          alt="Preload"
+          loading="eager"
+        />
+      </div>
+
       <div
         className="text-white bg-secondary hover:bg-secondary-dark hover:cursor-pointer font-medium rounded-lg text-sm px-5 py-2.5 mb-2 transition duration-200 ease-in-out"
         onClick={openModal}
@@ -111,6 +125,7 @@ const ModalPortfolio: React.FC<PortfolioModalProps> = ({ portfolio }) => {
                         "imageNotFound.png"
                       }`}
                       alt={portfolio?.title as string}
+                      loading="eager"
                     />
                   </Zoom>
                   {portfolio!.images.length > 1 && (
