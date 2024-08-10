@@ -31,7 +31,7 @@ const ModalPreviewCV = () => {
   return (
     <>
       <div
-        className="bg-primary text-white px-4 py-2 rounded-full shadow-lg transition-all duration-200 hover:bg-primary-dark hover:cursor-pointer"
+        className="bg-primary-dark font-semibold text-white px-4 py-2 rounded-full shadow-lg transition-all duration-200 hover:bg-primary hover:cursor-pointer"
         onClick={openModal}
       >
         Preview CV
