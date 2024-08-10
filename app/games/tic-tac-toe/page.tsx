@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import PortfolioSection from "@/app/projects/PortfolioSection";
 import { BiReset } from "react-icons/bi";
 
 const TicTacToeWithAI = () => {
