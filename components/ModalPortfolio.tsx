@@ -121,7 +121,6 @@ const ModalPortfolio: React.FC<PortfolioModalProps> = ({ portfolio }) => {
                       className="absolute top-0 left-0 w-full h-full rounded-xl"
                       src={portfolio.videoUrl}
                       title="YouTube video player"
-                      frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       allowFullScreen
                     ></iframe>
