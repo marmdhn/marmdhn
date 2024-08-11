@@ -306,18 +306,6 @@ export default function Home() {
               </div>
 
               <div className="relative group">
-                <Link href="https://www.figma.com/" target="_blank">
-                  <PiFigmaLogoFill
-                    size={36}
-                    className="transition-all duration-200 hover:text-gray-400 hover:cursor-pointer text-gray-800 dark:text-white dark:hover:text-gray-400"
-                  />
-                </Link>
-                <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-max bg-gray-800 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  Figma
-                </div>
-              </div>
-
-              <div className="relative group">
                 <Link href="https://www.python.org/" target="_blank">
                   <FaPython
                     size={36}
@@ -326,6 +314,18 @@ export default function Home() {
                 </Link>
                 <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-max bg-gray-800 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   Python
+                </div>
+              </div>
+
+              <div className="relative group">
+                <Link href="https://www.figma.com/" target="_blank">
+                  <PiFigmaLogoFill
+                    size={36}
+                    className="transition-all duration-200 hover:text-gray-400 hover:cursor-pointer text-gray-800 dark:text-white dark:hover:text-gray-400"
+                  />
+                </Link>
+                <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-max bg-gray-800 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  Figma
                 </div>
               </div>
 
