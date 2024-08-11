@@ -71,7 +71,7 @@ const CardPortfolio: React.FC<PortfolioCardTypes> = ({
             <h2 className="text-xl font-bold text-gray-900 dark:text-white">
               {title}
             </h2>
-            <FaYoutube size={24} />
+            {type.toLowerCase() === "video" && <FaYoutube size={24} />}
           </div>
           <p className="text-gray-400 mb-4">{companyName}</p>
           <div className="flex flex-wrap gap-2 mb-4">
