@@ -8,7 +8,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const PortfolioSection = () => {
   const [activeFilter, setActiveFilter] = useState("All");
 
-  const filters = ["All", "Website", "Mobile", "UI/UX"];
+  const filters = ["All", "Website", "Mobile", "UI/UX", "Design", "Video"];
 
   const filteredPortfolios =
     activeFilter === "All"
@@ -86,6 +86,7 @@ const PortfolioSection = () => {
                   images={portfolio.images}
                   githubRepo={portfolio.githubRepo}
                   webUrl={portfolio.webUrl}
+                  videoUrl={portfolio.videoUrl}
                 />
               </motion.div>
             ))
