@@ -43,13 +43,13 @@ const AboutMeSection = () => {
             onLoad={() => setIsLoading(false)}
           />
         </div>
-        <div className="flex flex-col gap-3 justify-center md:justify-start text-center md:text-start">
+        <div className="flex flex-col gap-4 justify-center md:justify-start text-center md:text-start">
           <div>
-            <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+            <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary mb-1">
               Muhammad Akbar Ramadhan
             </h1>
             <p className="text-xl text-gray-800 dark:text-gray-400 font-semibold">
-              Front End Developer
+              Front End Developer | UI/UX Design | Designer | Video Editor
             </p>
           </div>
           <div className="flex space-x-2">
@@ -102,6 +102,18 @@ const AboutMeSection = () => {
             </div>
 
             <div className="relative group">
+              <Link href="https://www.python.org/" target="_blank">
+                <FaPython
+                  size={36}
+                  className="transition-all duration-200 hover:text-gray-400 hover:cursor-pointer text-gray-800 dark:text-white dark:hover:text-gray-400"
+                />
+              </Link>
+              <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-max bg-gray-800 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Python
+              </div>
+            </div>
+
+            <div className="relative group">
               <Link href="https://www.figma.com/" target="_blank">
                 <PiFigmaLogoFill
                   size={36}
@@ -113,17 +125,6 @@ const AboutMeSection = () => {
               </div>
             </div>
 
-            <div className="relative group">
-              <Link href="https://www.python.org/" target="_blank">
-                <FaPython
-                  size={36}
-                  className="transition-all duration-200 hover:text-gray-400 hover:cursor-pointer text-gray-800 dark:text-white dark:hover:text-gray-400"
-                />
-              </Link>
-              <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-max bg-gray-800 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                Python
-              </div>
-            </div>
             <div className="relative group">
               <Link
                 href="https://www.adobe.com/id_id/products/premiere.html"
