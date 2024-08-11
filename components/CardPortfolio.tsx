@@ -4,7 +4,7 @@ import { PortfolioCardTypes } from "@/types/PortfolioCardTypes";
 import ModalPortfolio from "@/components/ModalPortfolio";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import Link from "next/link";
-import { FaImage } from "react-icons/fa6";
+import { FaImage, FaYoutube } from "react-icons/fa6";
 
 const CardPortfolio: React.FC<PortfolioCardTypes> = ({
   title,
@@ -15,6 +15,7 @@ const CardPortfolio: React.FC<PortfolioCardTypes> = ({
   images,
   githubRepo,
   webUrl,
+  videoUrl,
 }) => {
   const portfolioModalProps = {
     title,
@@ -25,6 +26,7 @@ const CardPortfolio: React.FC<PortfolioCardTypes> = ({
     images,
     githubRepo,
     webUrl,
+    videoUrl,
   };
 
   const [isLoading, setIsLoading] = useState(true);
@@ -49,9 +51,15 @@ const CardPortfolio: React.FC<PortfolioCardTypes> = ({
           className={`w-full h-56 object-cover object-center transition-opacity duration-500 ${
             isLoading ? "opacity-0" : "opacity-100"
           }`}
-          src={`/images/portfolio/${
-            imageCover !== undefined ? imageCover : "imageNotFound.png"
-          }`}
+          src={
+            type.toLowerCase() === "video"
+              ? imageCover
+                ? `/images/video-thumbnail/${imageCover}`
+                : "/images/imageNotFound.png"
+              : imageCover
+                ? `/images/portfolio/${imageCover}`
+                : "/images/imageNotFound.png"
+          }
           alt={title}
           onLoad={() => setTimeout(() => setIsLoading(false), 500)}
         />
@@ -63,6 +71,7 @@ const CardPortfolio: React.FC<PortfolioCardTypes> = ({
             <h2 className="text-xl font-bold text-gray-900 dark:text-white">
               {title}
             </h2>
+            <FaYoutube size={24} />
           </div>
           <p className="text-gray-400 mb-4">{companyName}</p>
           <div className="flex flex-wrap gap-2 mb-4">
