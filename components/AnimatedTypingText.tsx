@@ -7,12 +7,14 @@ const AnimatedTypingText = () => {
     <TypeAnimation
       sequence={[
         "Front End Developer",
-        1000,
-        "Web Designer",
         2000,
-        () => {
-          console.log("Sequence completed");
-        },
+        "UI/UX Designer",
+        2000,
+        "Designer",
+        2000,
+        "Video Editor",
+        2000,
+        () => {},
       ]}
       wrapper="span"
       cursor={true}
