@@ -85,6 +85,16 @@ const Navbar = () => {
                 >
                   Games
                 </Link>
+                <Link
+                  href="/gallery"
+                  className={`text-gray-900 px-3 py-2 rounded-md text-lg font-semibold ${
+                    activePath === "/gallery"
+                      ? "text-primary dark:text-primary"
+                      : "hover:text-primary dark:hover:text-primary dark:text-white"
+                  } transition-all duration-200`}
+                >
+                  Gallery
+                </Link>
               </div>
             </div>
             <div className="col-span-1 ms-auto hidden sm:block">
