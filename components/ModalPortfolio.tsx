@@ -39,15 +39,22 @@ const ModalPortfolio: React.FC<PortfolioModalProps> = ({ portfolio }) => {
   };
 
   const nextImage = () => {
-    setSelectedImageIndex((prevIndex) =>
-      prevIndex === portfolio!.images?.length - 1 ? 0 : prevIndex + 1,
-    );
+    const images = portfolio?.images ?? [];
+    if (images.length > 0) {
+      setSelectedImageIndex((prevIndex) =>
+        prevIndex === images.length - 1 ? 0 : prevIndex + 1,
+      );
+    }
   };
 
   const prevImage = () => {
-    setSelectedImageIndex((prevIndex) =>
-      prevIndex === 0 ? portfolio!.images?.length - 1 : prevIndex - 1,
-    );
+    const images = portfolio?.images ?? [];
+
+    if (images.length > 0) {
+      setSelectedImageIndex((prevIndex) =>
+        prevIndex === 0 ? images.length - 1 : prevIndex - 1,
+      );
+    }
   };
 
   useEffect(() => {
@@ -152,7 +159,7 @@ const ModalPortfolio: React.FC<PortfolioModalProps> = ({ portfolio }) => {
                         onLoad={() => setIsLoading(false)}
                       />
                     </Zoom>
-                    {portfolio!.images?.length > 1 && (
+                    {portfolio?.images && portfolio.images.length > 1 && (
                       <>
                         <div className="absolute inset-y-0 left-0 flex items-center">
                           <button
