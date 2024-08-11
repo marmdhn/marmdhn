@@ -40,22 +40,24 @@ const ModalPortfolio: React.FC<PortfolioModalProps> = ({ portfolio }) => {
 
   const nextImage = () => {
     setSelectedImageIndex((prevIndex) =>
-      prevIndex === portfolio!.images.length - 1 ? 0 : prevIndex + 1,
+      prevIndex === portfolio!.images?.length - 1 ? 0 : prevIndex + 1,
     );
   };
 
   const prevImage = () => {
     setSelectedImageIndex((prevIndex) =>
-      prevIndex === 0 ? portfolio!.images.length - 1 : prevIndex - 1,
+      prevIndex === 0 ? portfolio!.images?.length - 1 : prevIndex - 1,
     );
   };
 
   useEffect(() => {
     if (isOpen && portfolio) {
-      portfolio.images.forEach((image) => {
-        const img = document.createElement("img");
-        img.src = `/images/portfolio/${image}`;
-      });
+      if (portfolio.images) {
+        portfolio.images.forEach((image) => {
+          const img = document.createElement("img");
+          img.src = `/images/portfolio/${image}`;
+        });
+      }
     }
   }, [isOpen, portfolio]);
 
@@ -65,7 +67,9 @@ const ModalPortfolio: React.FC<PortfolioModalProps> = ({ portfolio }) => {
         className="text-white bg-secondary hover:bg-secondary-dark hover:cursor-pointer font-medium rounded-lg text-sm px-5 py-2.5 mb-2 transition duration-200 ease-in-out"
         onClick={openModal}
       >
-        Preview Image
+        {portfolio?.type.toLowerCase() === "video"
+          ? "Preview Video"
+          : "Preview Image"}
       </div>
       <Transition
         show={isOpen}
@@ -111,53 +115,66 @@ const ModalPortfolio: React.FC<PortfolioModalProps> = ({ portfolio }) => {
               </div>
 
               <div className="relative px-6 pb-6 flex-auto">
-                <div
-                  className={`relative flex items-center justify-center transition-all duration-200 ${
-                    isLoading
-                      ? "h-96 w-full rounded-lg bg-gray-500 animate-pulse dark:bg-gray-700"
-                      : ""
-                  }`}
-                >
-                  {isLoading && (
-                    <FaImage className="absolute w-10 h-10 text-gray-200 dark:text-gray-600 transition-all duration-200" />
-                  )}
-                  <Zoom zoomMargin={40}>
-                    <Image
-                      unoptimized
-                      width={100}
-                      height={100}
-                      className={`w-full h-96 object-cover rounded-lg object-center mb-4 transition-opacity duration-500 ${
-                        isLoading ? "opacity-0" : "opacity-100"
-                      }`}
-                      src={`/images/portfolio/${
-                        portfolio!.images[selectedImageIndex] ??
-                        "imageNotFound.png"
-                      }`}
-                      alt={portfolio?.title as string}
-                      onLoad={() => setIsLoading(false)}
-                    />
-                  </Zoom>
-                  {portfolio!.images.length > 1 && (
-                    <>
-                      <div className="absolute inset-y-0 left-0 flex items-center">
-                        <button
-                          className="text-white bg-secondary hover:bg-secondary-dark rounded-full w-10 h-10 transition-all duration-200"
-                          onClick={prevImage}
-                        >
-                          {"<"}
-                        </button>
-                      </div>
-                      <div className="absolute inset-y-0 right-0 flex items-center">
-                        <button
-                          className="text-white bg-secondary hover:bg-secondary-dark rounded-full w-10 h-10 transition-all duration-200"
-                          onClick={nextImage}
-                        >
-                          {">"}
-                        </button>
-                      </div>
-                    </>
-                  )}
-                </div>
+                {portfolio?.type.toLowerCase() === "video" ? (
+                  <div className="relative w-full pb-[56.25%] h-0">
+                    <iframe
+                      className="absolute top-0 left-0 w-full h-full rounded-xl"
+                      src={portfolio.videoUrl}
+                      title="YouTube video player"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                ) : (
+                  <div
+                    className={`relative flex items-center justify-center transition-all duration-200 ${
+                      isLoading
+                        ? "h-96 w-full rounded-lg bg-gray-500 animate-pulse dark:bg-gray-700"
+                        : ""
+                    }`}
+                  >
+                    {isLoading && (
+                      <FaImage className="absolute w-10 h-10 text-gray-200 dark:text-gray-600 transition-all duration-200" />
+                    )}
+                    <Zoom zoomMargin={40}>
+                      <Image
+                        unoptimized
+                        width={100}
+                        height={100}
+                        className={`w-full h-96 object-cover rounded-lg object-center mb-4 transition-opacity duration-500 ${
+                          isLoading ? "opacity-0" : "opacity-100"
+                        }`}
+                        src={`/images/portfolio/${
+                          portfolio!.images?.[selectedImageIndex] ??
+                          "imageNotFound.png"
+                        }`}
+                        alt={portfolio?.title as string}
+                        onLoad={() => setIsLoading(false)}
+                      />
+                    </Zoom>
+                    {portfolio!.images?.length > 1 && (
+                      <>
+                        <div className="absolute inset-y-0 left-0 flex items-center">
+                          <button
+                            className="text-white bg-secondary hover:bg-secondary-dark rounded-full w-10 h-10 transition-all duration-200"
+                            onClick={prevImage}
+                          >
+                            {"<"}
+                          </button>
+                        </div>
+                        <div className="absolute inset-y-0 right-0 flex items-center">
+                          <button
+                            className="text-white bg-secondary hover:bg-secondary-dark rounded-full w-10 h-10 transition-all duration-200"
+                            onClick={nextImage}
+                          >
+                            {">"}
+                          </button>
+                        </div>
+                      </>
+                    )}
+                  </div>
+                )}
               </div>
             </div>
           </div>
