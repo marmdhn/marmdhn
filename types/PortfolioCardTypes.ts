@@ -4,7 +4,8 @@ export interface PortfolioCardTypes {
   imageCover?: string;
   companyName: string;
   type: string;
-  images: string[];
+  images?: string[];
+  videoUrl?: string;
   githubRepo?: string;
   webUrl?: string;
 }
