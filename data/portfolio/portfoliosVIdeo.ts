@@ -9,4 +9,12 @@ export const portfoliosVideo: PortfolioCardTypes[] = [
     type: "Video",
     videoUrl: "https://www.youtube.com/embed/LU9twc_-Dh8?si=SUSu1KYcR6U5msjm",
   },
+  {
+    title: "Cinematic Setup Show off",
+    imageCover: "thumbnail_2.png",
+    techStack: ["Adobe Premiere Pro"],
+    companyName: "Personal Project",
+    type: "Video",
+    videoUrl: "https://www.youtube.com/embed/SaFA6-LO4HI?si=xHMlpkNXZHXfwEx4",
+  },
 ];
