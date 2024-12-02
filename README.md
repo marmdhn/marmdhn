@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Muhammad Akbar Ramadhan</h1>
 <h3 align="center">Front End Developer in Telkom Foundation</h3>
 
-- 🔭 I’m currently working on [PPDB Telkom Schools](https://ppdb.telkomschools.sch.id/) & [DigiTS](https://digits.telkomschools.sch.id/)
-
 - 🌱 I’m currently learning **React Native**
 
 - 👯 I’m looking to collaborate on **Anyone**
