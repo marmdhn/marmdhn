@@ -70,7 +70,7 @@ const ModalPreviewCV = () => {
               <div className="relative px-6 pb-6 flex-auto">
                 <div className="overflow-hidden rounded-lg shadow-lg bg-white dark:bg-gray-900">
                   <iframe
-                    src="/documents/CV-Muhammad Akbar Ramadhan-V3.pdf"
+                    src="/documents/CV-Muhammad Akbar Ramadhan-V3.1.pdf"
                     width="100%"
                     height="500px"
                     className="border-none"
@@ -80,7 +80,7 @@ const ModalPreviewCV = () => {
 
                 <div className="flex justify-center mt-4">
                   <Link
-                    href="/documents/CV-Muhammad Akbar Ramadhan-V3.pdf"
+                    href="/documents/CV-Muhammad Akbar Ramadhan-V3.1.pdf"
                     className="bg-primary text-white px-4 py-2 rounded-full shadow-lg transition-all duration-200 hover:bg-primary-dark hover:cursor-pointer flex items-center"
                     target="_blank"
                     rel="noopener noreferrer"
